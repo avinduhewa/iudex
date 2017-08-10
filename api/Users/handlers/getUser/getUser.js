@@ -8,9 +8,8 @@ module.exports.hello = (event, context, callback) => {
   database.initDB(db => {
 
     const USERS = db.collection('Users');
-    const DASHBOARDS = db.collection('Dashboards');
 
-    DASHBOARDS.find({ _id: { $in: data.dashboards } })
+    USERS.find({ _id: database.objectID(data._id) })
       .then(result => {
         return returnData({ status: 200, data: result });
       })
