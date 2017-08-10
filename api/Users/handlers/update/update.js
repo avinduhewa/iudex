@@ -7,9 +7,9 @@ module.exports.hello = (event, context, callback) => {
   const data = event.queryStringParameters;
   database.initDB(db => {
 
-    const DASHBOARDS = db.collection('Dashboards');
+    const USERS = db.collection('Users');
 
-    DASHBOARDS.update(
+    USERS.update(
       { _id: database.objectID(data._id) },
       { $set: data.update })
       .then(result => {
