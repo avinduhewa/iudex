@@ -3,8 +3,8 @@
 const auth = require('./lib/auth');
 
 module.exports.auth = (event, context, callback) => {
-  var data = JSON.parse(event.body).data;
-  var path = JSON.parse(event.body).path;
+  const data = JSON.parse(event.body).data;
+  const path = JSON.parse(event.body).path;
 
   switch (path) {
     case '/login':
@@ -26,10 +26,9 @@ module.exports.auth = (event, context, callback) => {
 };
 
 function returnData(data, context) {
-  console.log(data);
   context.succeed({
     statusCode: data.status,
     headers: { 'Access-Control-Allow-Origin': '*' },
     body: JSON.stringify(data),
   });
-}
+};

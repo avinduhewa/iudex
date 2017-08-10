@@ -50,7 +50,7 @@ function getUser(email) {
 }
 
 function createUser(User) {
-  var getSalt = createToken(),
+  const getSalt = createToken(),
     getHash = getSalt.then(salt => {
       return computeHash(User.clearPassword, salt.toString('base64'));
     }),
