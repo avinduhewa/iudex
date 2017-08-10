@@ -3,6 +3,8 @@
 const auth = require('./lib/auth');
 
 module.exports.auth = (event, context, callback) => {
+  if(event.source === 'aws.events') return returnData({status:200, data: {} }, context);
+  
   const data = JSON.parse(event.body).data;
   const path = JSON.parse(event.body).path;
 
