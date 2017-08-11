@@ -4,16 +4,16 @@ import SideNavBar from './components/SideNavBar';
 import BodyMain from './components/BodyMain';
 import './App.css';
 
+
+
 class App extends Component {
   render() {
     return (
       <div className="App">
-      <Header/>
-      <SideNavBar />
-    
+        <Header />
+        <SideNavBar />
 
-<BodyMain/>
-
+        <BodyMain />
 
       </div>
     );
