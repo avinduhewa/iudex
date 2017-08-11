@@ -1,0 +1,22 @@
+body {
+  background-image: url('./bg.png');
+  background-position: center center;
+  background-size: cover;
+}
+
+.column {
+  background-color: rgba(245,245,245,0.7);
+  padding: 30px 30px;
+  /* opacity: 0.5; */
+}
+body > .grid {
+  height: 100%;
+}
+.image {
+  margin-top: -100px;
+}
+.column {
+  position: absolute;
+  top: 250px;
+  max-width: 450px;
+}
