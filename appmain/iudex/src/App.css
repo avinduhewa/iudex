@@ -1,9 +1,19 @@
+body {
+  /* background-image: url('./public/bg.png'); */
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
 .bodyCards{
 
   padding-top: 100px;
 }
 .GridName{
    text-align: center;
+   -webkit-text-fill-color: white;
+
 }
 
 
