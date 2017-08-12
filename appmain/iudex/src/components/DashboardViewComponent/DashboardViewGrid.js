@@ -5,12 +5,12 @@ import React, { Component } from 'react';
 class DashboardViewGrid extends Component {
   render() {
     return (
-      <div className ="DashboardViewGrid ">
+      <div className ="DashboardViewGrid bodyCards">
 
 
         <div className="ui middle aligned center aligned grid">
-        <div className="column">
-        <h1 className="ui dividing header  ">NYMUN</h1>
+        <div className="">
+        <h1 class="ui center aligned header">NYMUN</h1>
           <form className="ui form">
               
               <div className="field">
