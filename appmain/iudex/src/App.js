@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-import {Router,Route} from "react-router";
-import Header from './components/DashboardComponents/Header';
 import SideNavBar from './components/SideNavBar';
-import BodyMain from './components/DashboardComponents/BodyMain';
 import DashboardViewGrid from './components/DashboardViewComponent/DashboardViewGrid';
 
 

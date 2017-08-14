@@ -4,21 +4,27 @@ import React, { Component } from 'react';
 
 class DashboardViewGrid extends Component {
 
-  constructor(props){
+  constructor(props) {
     super(props);
-    this.state ={
-      speakerName :''
+    this.state = {
+      speakerName: ''
     }
     this.onChange = this.onChange.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
   }
 
-  onChange(e){
-    this.setState({[e.target.name]: e.target.value});  
-    
+  componentWillMount() {
+    if (window.localStorage.getItem("login") === null ||
+      window.localStorage.getItem("login") === "false") {
+      window.location.assign('/');
+    }
   }
 
-  onSubmit(e){
+  onChange(e) {
+    this.setState({ [e.target.name]: e.target.value });
+  }
+
+  onSubmit(e) {
     e.preventDefault();
     console.log(this.state);
   }
@@ -58,11 +64,23 @@ class DashboardViewGrid extends Component {
                     <option value="AZ">Arizona</option>
                   </select>
                   </div>
-                  <div className="field">
-                    <input type="text" name="speakerName" value={this.state.speakerName} onChange={this.onChange}/>
+                </div>
+                <div className="card">
+                  <div className="content">
+                    <div className="header">Veronika Ossi</div>
+                    <div className="meta">Friend</div>
+                    <div className="description">
+                      Veronika Ossi is a set designer living in New York who enjoys kittens, music, and partying.
+                    </div>
                   </div>
-                  <div className="field">
-                  <button className="ui button" type="submit">Submit</button>
+                </div>
+                <div className="card">
+                  <div className="content">
+                    <div className="header">Jenny Hess</div>
+                    <div className="meta">Friend</div>
+                    <div className="description">
+                      Jenny is a student studying Media Management at the New School
+                    </div>
                   </div>
                 </div>
               </div>

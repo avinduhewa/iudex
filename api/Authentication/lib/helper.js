@@ -3,7 +3,7 @@
 var Promise = require('bluebird'),
   crypto = Promise.promisifyAll(require('crypto')),
   jwt = require('jwt-simple'),
-  db = require('../../../database/mongodb');
+  db = require('../util/database');
 
 const JWT_SECRET = 'my_super_secrect_key';
 const JWT_ALGORITHM = "HS256";
@@ -42,7 +42,9 @@ function computeHash(password, salt) {
 
 // Return a promise that resolves to the user queried by the email.
 function getUser(email) {
+  console.log(db.getUser(email));
   return db.getUser(email).then(result => {
+    console.log(result);
     const user = result;
     if (!user) return Promise.reject('User not found');
     return Promise.resolve(user);
