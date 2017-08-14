@@ -15,6 +15,7 @@ class DashboardViewGrid extends Component {
 
   onChange(e){
     this.setState({[e.target.name]: e.target.value});  
+    
   }
 
   onSubmit(e){
@@ -22,10 +23,7 @@ class DashboardViewGrid extends Component {
     console.log(this.state);
   }
 
-  handleSubmit(event) {
-   
-  }
-
+ 
 
   render() {
     return (
@@ -64,7 +62,7 @@ class DashboardViewGrid extends Component {
         <div className = "textcard">
         <div className="ui middle aligned left aligned grid textcard">
         <div className="">
-        <h1 className="ui center aligned header">NYMUN</h1>
+        <h1 className="ui center aligned header titleText">NYMUN</h1>
           <form className="ui form" onSubmit={this.onSubmit}>
               
               <div className="field">
@@ -72,7 +70,7 @@ class DashboardViewGrid extends Component {
                 <div className="four fields">
                   <div className="field">
   
-                  <select className="ui search dropdown">
+                  <select  value={this.state.countrySelect} onChange={this.onChange} name="countrySelect" className="ui search dropdown">
                     <option value="">State</option>
                     <option value="AL">Alabama</option>
                     <option value="AK">Alaska</option>
@@ -83,7 +81,7 @@ class DashboardViewGrid extends Component {
                   </div>
                   <div className="field">
   
-                  <select className="ui search dropdown">
+                  <select value={this.state.criteriaSelect} onChange={this.onChange} name ="criteriaSelect" className="ui search dropdown">
                     <option value="">State</option>
                     <option value="AL">Alabama</option>
                     <option value="AK">Alaska</option>
@@ -94,12 +92,7 @@ class DashboardViewGrid extends Component {
                     <input type="text" name="speakerName" value={this.state.speakerName} onChange={this.onChange}/>
                   </div>
                   <div className="field">
-                    <div className="ui animated button" tabIndex="0">
-                    <div className="visible content">Submit</div>
-                    <div className="hidden content">
-                      <i className="right arrow icon"></i>
-                    </div>
-                    </div>
+                  <button className="ui button" type="submit">Submit</button>
                   </div>
                 </div>
               </div>
