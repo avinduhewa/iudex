@@ -17,7 +17,7 @@ class SideNavBar extends Component {
 
   render() {
     return (
-      <div className="SideNavBar">
+      <div className="SideNavBar navigation">
         <div className="ui inverted  menu">
           <a className="item">
             Name
