@@ -29,11 +29,9 @@ body {
   padding-left :50px;
 }
 
-.notes{
-  float: right;
-  padding-right: 90px;
-
-
+#cardNotes{
+  height: 500px !important;
+  width: 500px !important;
 }
 
 
