@@ -7,25 +7,42 @@ import axios from 'axios';
 
 
 class Login extends Component {
-  constructor() {
-    super();
-    const login = (e) => {
-      console.log(e);
-      const user = {
-        username: document.getElementById("email"),
-        password: document.getElementById("password")
-      };
-      axios.post('https://25knyelhz8.execute-api.ap-southeast-1.amazonaws.com/dev/auth',
-        {
-          path:'/login',
-          data: user
-        })
-        .then((resp) => {
-          console.log(resp);
-        })
-        .catch(console.error)
+  constructor(props) {
+    super(props);
+    this.state = {
+      username: '',
+      password: ''
     }
+    this.onChange = this.onChange.bind(this);
+    this.onSubmit = this.onSubmit.bind(this);
   }
+
+  onChange(e) {
+    this.setState({ [e.target.name]: e.target.value })
+  }
+
+  onSubmit(e) {
+    e.preventDefault();
+    const options = {
+      method: 'POST',
+      url: 'https://25knyelhz8.execute-api.ap-southeast-1.amazonaws.com/dev/auth',
+      data: JSON.stringify({
+        path: '/login',
+        data: this.state
+      }),
+      headers: {
+        'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*'
+      },
+      json: true
+    }
+    axios(options)
+      .then((resp) => {
+        console.log(resp);
+      })
+      .catch(console.error)
+  }
+
   render() {
 
     return (
@@ -37,21 +54,23 @@ class Login extends Component {
                 Log-in to your account
               </div>
             </h2>
-            <form className="ui large form">
+            <form onSubmit={this.onSubmit} className="ui large form">
               <div className="ui stacked secondary  segment">
                 <div className="field">
                   <div className="ui left icon input">
                     <i className="user icon"></i>
-                    <input type="text" id="email" name="email" placeholder="E-mail address"/>
+                    <input type="text" placeholder="E-mail address" name="username"
+                      value={this.state.username} onChange={this.onChange} />
                   </div>
                 </div>
                 <div className="field">
                   <div className="ui left icon input">
                     <i className="lock icon"></i>
-                    <input type="password" id="password" name="password" placeholder="Password"/>
+                    <input type="password" name="password" placeholder="Password"
+                      value={this.state.password} onChange={this.onChange} />
                   </div>
                 </div>
-                <button onClick={this.login} className="ui fluid large teal submit button">Login</button>
+                <button className="ui fluid large teal submit button">Login</button>
               </div>
 
               <div className="ui error message"></div>

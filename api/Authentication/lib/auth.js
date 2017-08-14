@@ -6,6 +6,13 @@ const Promise = require('bluebird'),
 
 AWS.config.update({ region: 'ap-southeast-2' });
 
+function returnData(data, context) {
+  return context.succeed({
+    statusCode: data.status,
+    headers: { 'Access-Control-Allow-Origin': '*' },
+    body: JSON.stringify(data),
+  });
+};
 
 module.exports.signup = (data, context, event) => {
   if (!data.email) {
@@ -20,15 +27,16 @@ module.exports.signup = (data, context, event) => {
   sendVerificationEmail(User, context, (err, data) => {
     helper.createUser(User).then(status => {
       context.succeed(status);
+      return returnData({ status: 200, data: status }, context);
     }).catch(err => {
-      context.fail("Error: " + err);
+      return returnData({ status: 402, data: err }, context);
     });
   });
 };
 
 module.exports.login = (data, context, event) => {
   if (!(data.email && data.password)) {
-    return context.fail("Error: missing login parameters.");
+    return returnData({ status: 402, data: err }, context);
   }
   const email = data.email.toLowerCase();
   const clearPassword = data.password;
@@ -42,19 +50,27 @@ module.exports.login = (data, context, event) => {
     const correctHash = user.hash;
     if (hash.toString('base64') === correctHash) {
       return helper.createJWT(email).then(token => {
-        context.succeed({
-          login: true,
-          token: token
-        });
+        return returnData({
+          status: 200,
+          data: {
+            login: true,
+            token: token
+          }
+        }, context);
       });
     } else {
-      context.fail({
-        login: false,
-        message: 'login failed.'
-      });
+
+      return returnData({
+        status: 402,
+        data: {
+          login: false,
+          message: 'login failed.'
+        }
+      }, context);
+
     }
   }).catch(err => {
-    context.fail("Error: " + err);
+    return returnData({ status: 402, data: err }, context);
   });
 };
 
@@ -69,7 +85,7 @@ const sendVerificationEmail = function (data, context, cb) {
     + "--NextPart\n"
     + "Content-Type: text/html; charset=us-ascii\n\n"
     + "<h2>Hello,</h2><p>Welcome to IUDEX.<br>Please click the link below to verify your email address";
-    // + "<a href=\"https://app.maturify.com/login/" + data.email + "\"> link text </a>";
+  // + "<a href=\"https://app.maturify.com/login/" + data.email + "\"> link text </a>";
   const paramsMail = {
     RawMessage: {
       Data: new Buffer(ses_mail)
@@ -95,8 +111,10 @@ module.exports.confirmUser = (data, context) => {
 module.exports.checkUser = (data, context) => {
   let decode = helper.decodeToken(data.token);
   if (data.email == decode.email) {
-    return context.done(null, { login: true });
+    return returnData({ status: 200, data: { login: true } }, context);
+    
   } else {
-    return context.done(null, { login: false });
+    return returnData({ status: 402, data: { login: false } }, context);
+    
   }
 }
