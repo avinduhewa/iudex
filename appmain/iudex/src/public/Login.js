@@ -3,16 +3,30 @@ import React, { Component } from 'react';
 // import SideNavBar from './components/SideNavBar';
 // import BodyMain from './components/BodyMain';
 import './Login.css';
-
+import axios from 'axios';
 
 
 class Login extends Component {
-  render() {
-
-    function login(event) {
-      console.log(event);
-      console.log('asdasd');
+  constructor() {
+    super();
+    const login = (e) => {
+      console.log(e);
+      const user = {
+        username: document.getElementById("email"),
+        password: document.getElementById("password")
+      };
+      axios.post('https://25knyelhz8.execute-api.ap-southeast-1.amazonaws.com/dev/auth',
+        {
+          path:'/login',
+          data: user
+        })
+        .then((resp) => {
+          console.log(resp);
+        })
+        .catch(console.error)
     }
+  }
+  render() {
 
     return (
       <div className="Login">
@@ -23,21 +37,21 @@ class Login extends Component {
                 Log-in to your account
               </div>
             </h2>
-            <form onSubmit={this.login} className="ui large form">
+            <form className="ui large form">
               <div className="ui stacked secondary  segment">
                 <div className="field">
                   <div className="ui left icon input">
                     <i className="user icon"></i>
-                    <input type="text" name="email" placeholder="E-mail address"/>
+                    <input type="text" id="email" name="email" placeholder="E-mail address"/>
                   </div>
                 </div>
                 <div className="field">
                   <div className="ui left icon input">
                     <i className="lock icon"></i>
-                    <input type="password" name="password" placeholder="Password"/>
+                    <input type="password" id="password" name="password" placeholder="Password"/>
                   </div>
                 </div>
-                <button type="submit" className="ui fluid large teal submit button">Login</button>
+                <button onClick={this.login} className="ui fluid large teal submit button">Login</button>
               </div>
 
               <div className="ui error message"></div>
