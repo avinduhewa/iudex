@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-// import Header from './components/Header';
-// import SideNavBar from './components/SideNavBar';
-// import BodyMain from './components/BodyMain';
 import './Login.css';
 import axios from 'axios';
 
@@ -10,7 +7,7 @@ class Login extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      username: '',
+      email: '',
       password: ''
     }
     this.onChange = this.onChange.bind(this);
@@ -38,7 +35,15 @@ class Login extends Component {
     }
     axios(options)
       .then((resp) => {
-        console.log(resp);
+        console.log(resp.data.data);
+        if(resp.data.data.login) {
+          window.localStorage.setItem('email', resp.data.data.user.email);
+          window.localStorage.setItem('login', resp.data.data.login);
+          window.localStorage.setItem('admin', resp.data.data.admin);
+          window.location.assign('/app');
+        }else{
+          this.setState({ error: "Incorrect email and password" })
+        }
       })
       .catch(console.error)
   }
@@ -54,13 +59,14 @@ class Login extends Component {
                 Log-in to your account
               </div>
             </h2>
+            <h4 className="error">{this.state.error}</h4>
             <form onSubmit={this.onSubmit} className="ui large form">
               <div className="ui stacked secondary  segment">
                 <div className="field">
                   <div className="ui left icon input">
                     <i className="user icon"></i>
-                    <input type="text" placeholder="E-mail address" name="username"
-                      value={this.state.username} onChange={this.onChange} />
+                    <input type="text" placeholder="E-mail address" name="email"
+                      value={this.state.email} onChange={this.onChange} />
                   </div>
                 </div>
                 <div className="field">

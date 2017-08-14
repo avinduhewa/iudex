@@ -9,6 +9,11 @@ body {
   padding: 30px 30px;
   /* opacity: 0.5; */
 }
+
+.error {
+  color: red;
+}
+
 body > .grid {
   height: 100%;
 }

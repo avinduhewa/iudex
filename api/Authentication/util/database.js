@@ -5,7 +5,7 @@ var MongoClient = mongodb.MongoClient;
 var connectionString = 'mongodb://admin:password@ds135830.mlab.com:35830/iudex';
 
 function dbConnect(cb) {
-  MongoClient.connect(userTable, (err, db) => {
+  MongoClient.connect(connectionString, (err, db) => {
     if (err) {
       return cb(err);
     } else {
