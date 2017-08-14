@@ -3,6 +3,30 @@ import React, { Component } from 'react';
 
 
 class DashboardViewGrid extends Component {
+
+  constructor(props){
+    super(props);
+    this.state ={
+      speakerName :''
+    }
+    this.onChange = this.onChange.bind(this);
+    this.onSubmit = this.onSubmit.bind(this);
+  }
+
+  onChange(e){
+    this.setState({[e.target.name]: e.target.value});  
+  }
+
+  onSubmit(e){
+    e.preventDefault();
+    console.log(this.state);
+  }
+
+  handleSubmit(event) {
+   
+  }
+
+
   render() {
     return (
       <div className ="DashboardViewGrid bodyCards">
@@ -40,15 +64,15 @@ class DashboardViewGrid extends Component {
         <div className = "textcard">
         <div className="ui middle aligned left aligned grid textcard">
         <div className="">
-        <h1 class="ui center aligned header">NYMUN</h1>
-          <form className="ui form">
+        <h1 className="ui center aligned header">NYMUN</h1>
+          <form className="ui form" onSubmit={this.onSubmit}>
               
               <div className="field">
   
                 <div className="four fields">
                   <div className="field">
   
-                  <select class="ui search dropdown">
+                  <select className="ui search dropdown">
                     <option value="">State</option>
                     <option value="AL">Alabama</option>
                     <option value="AK">Alaska</option>
@@ -59,7 +83,7 @@ class DashboardViewGrid extends Component {
                   </div>
                   <div className="field">
   
-                  <select class="ui search dropdown">
+                  <select className="ui search dropdown">
                     <option value="">State</option>
                     <option value="AL">Alabama</option>
                     <option value="AK">Alaska</option>
@@ -67,10 +91,10 @@ class DashboardViewGrid extends Component {
                   </select>
                   </div>
                   <div className="field">
-                    <input type="text" name="shipping[last-name]" placeholder="Last Name"/>
+                    <input type="text" name="speakerName" value={this.state.speakerName} onChange={this.onChange}/>
                   </div>
                   <div className="field">
-                    <div className="ui animated button" tabindex="0">
+                    <div className="ui animated button" tabIndex="0">
                     <div className="visible content">Submit</div>
                     <div className="hidden content">
                       <i className="right arrow icon"></i>
