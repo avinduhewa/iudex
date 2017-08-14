@@ -6,9 +6,39 @@ class DashboardViewGrid extends Component {
   render() {
     return (
       <div className ="DashboardViewGrid bodyCards">
+        
+
+          
+            
+
+      <div className="notes">
 
 
-        <div className="ui middle aligned center aligned grid">
+                
+
+              <div className="ui middle aligned right aligned grid ">
+
+      
+
+
+                <div className="ui card">
+                  <div className="content">
+                    <div className="header">Cute Dog</div>
+                    <div className="meta">2 days ago</div>
+                    <div className="description">
+                      <p>Cute dogs come in a variety of shapes and sizes. Some cute dogs are cute for their adorable faces, others for their tiny stature, and even others for their massive size.</p>
+                      <p>Many people also have their own barometers for what makes a cute dog.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+
+
+        </div>
+
+        <div className = "textcard">
+        <div className="ui middle aligned left aligned grid textcard">
         <div className="">
         <h1 class="ui center aligned header">NYMUN</h1>
           <form className="ui form">
@@ -64,18 +94,8 @@ class DashboardViewGrid extends Component {
   
   
           <div className="ui middle aligned animated list">
-          <div className="item">
-  
-            <div className="content">
-              <div className="header">Helen</div>
-            </div>
-          </div>
-          <div className="item">
-  
-            <div className="content">
-              <div className="header">Christian</div>
-            </div>
-          </div>
+        
+        
           <div className="item">
   
             <div className="content">
@@ -115,6 +135,11 @@ class DashboardViewGrid extends Component {
       
         </div>
         </div>
+        </div>
+
+
+
+
 
 
 

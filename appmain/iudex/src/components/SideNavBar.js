@@ -8,32 +8,18 @@ class SideNavBar extends Component {
       <div className="SideNavBar">
 
     
-      <div className="ui fixed inverted menu">
-        <div className="ui container">
-          <a href="#" className="header item">
-            IUDEX
-          </a>
-          <a href="#" className="item">Home</a>
-          <div className="ui simple dropdown item">
-            Dropdown <i className="dropdown icon"></i>
-            <div className="menu">
-              <a className="item" href="#">Link Item</a>
-              <a className="item" href="#">Link Item</a>
-              <div className="divider"></div>
-              <div className="header">Header Item</div>
-              <div className="item">
-                <i className="dropdown icon"></i>
-                Sub Menu
-                <div className="menu">
-                  <a className="item" href="#">Link Item</a>
-                  <a className="item" href="#">Link Item</a>
-                </div>
-              </div>
-              <a className="item" href="#">Link Item</a>
-            </div>
+        <div className="ui inverted  menu">
+      
+        <a className="item">
+          Name
+        </a>
+        <div className="right menu">
+          
+          <div className="item">
+              <div className="ui primary button">Log out</div>
           </div>
         </div>
-      </div>
+        </div>
 
       </div>
     );
