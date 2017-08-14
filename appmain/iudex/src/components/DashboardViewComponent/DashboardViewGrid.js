@@ -34,6 +34,17 @@ class DashboardViewGrid extends Component {
   render() {
     return (
       <div className ="DashboardViewGrid bodyCards">
+
+         
+    <ul className="bubbles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+
      <div className ="container">   
     <div className="ui grid">
       <div className="eight wide ">
@@ -58,31 +69,21 @@ class DashboardViewGrid extends Component {
                   </div>
                   <div className="field"> 
                   <select value={this.state.criteriaSelect} onChange={this.onChange} name ="criteriaSelect" className="ui search dropdown">
-                    <option value="">State</option>
-                    <option value="AL">Alabama</option>
-                    <option value="AK">Alaska</option>
-                    <option value="AZ">Arizona</option>
+                    <option value="">Criteria</option>
+                    <option value="AL">Speech</option>
+                    <option value="AK">Debate</option>
+                    <option value="AZ">Shit</option>
                   </select>
                   </div>
-                </div>
-                <div className="card">
-                  <div className="content">
-                    <div className="header">Veronika Ossi</div>
-                    <div className="meta">Friend</div>
-                    <div className="description">
-                      Veronika Ossi is a set designer living in New York who enjoys kittens, music, and partying.
-                    </div>
+                  <div className="field"> 
+                  <input type="number" value={this.state.poitsAssign} onChange={this.onChange} name="points" placeholder="Points"/>       
+                  </div>
+                  <div className="field"> 
+                  <button className="ui button" type="submit">Submit</button>
                   </div>
                 </div>
-                <div className="card">
-                  <div className="content">
-                    <div className="header">Jenny Hess</div>
-                    <div className="meta">Friend</div>
-                    <div className="description">
-                      Jenny is a student studying Media Management at the New School
-                    </div>
-                  </div>
-                </div>
+           
+           
               </div>
             </form>
             <div className="ui cards cardPosition">
