@@ -35,16 +35,7 @@ class DashboardViewGrid extends Component {
     return (
       <div className ="DashboardViewGrid bodyCards">
 
-         
-    <ul className="bubbles">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-
-
+  
      <div className ="container">   
     <div className="ui grid">
       <div className="eight wide ">
@@ -55,7 +46,7 @@ class DashboardViewGrid extends Component {
       <div className ="container">   
         <div className="ui middle aligned left aligned grid textcard">
         <div className="">
-        <h1 className="ui center aligned header titleText" >NYMUN</h1>
+       
           <form className="ui form" onSubmit={this.onSubmit}>            
               <div className="field">  
                 <div className="four fields">
