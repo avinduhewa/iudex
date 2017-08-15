@@ -13,7 +13,7 @@ module.exports.initDB = (callback) => {
     reconnectTries: 60,
     reconnectInterval: 100,
   };
-  MongoClient.connect(dbConfig.admin, options, (err, db) => {
+  MongoClient.connect(connectionString, options, (err, db) => {
     if (err) return callback(err);
     return callback(db);
   });
