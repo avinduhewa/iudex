@@ -35,7 +35,7 @@ class DashboardViewGrid extends Component {
     return (
       <div className ="DashboardViewGrid bodyCards">
 
-  
+      <div className="ui row">
      <div className ="container">   
     <div className="ui grid">
       <div className="eight wide ">
@@ -176,7 +176,7 @@ class DashboardViewGrid extends Component {
       
         </div>
       </div>
-     
+     </div>
     </div >
           
             

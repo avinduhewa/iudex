@@ -24,7 +24,7 @@ class SideNavBar extends Component {
         </a>
         <div className="right menu">
             <div className="item">
-            <h1> National Youth Model United Nations - Sri Lanka</h1>
+            <h3><b> National Youth Model United Nations - Sri Lanka</b></h3>
             </div>
           </div>
     
