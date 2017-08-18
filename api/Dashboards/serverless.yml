@@ -93,6 +93,51 @@ functions:
          method: GET
          cors: true
 
+  getInactiveDelegates:
+    handler: handlers/getInactiveDelegates/handler.getInactiveDelegates
+    name: getInactiveDelegates
+    events:
+      - http:
+         path: users/getTop
+         method: GET
+         cors: true
+
+  getCliffNotes:
+    handler: handlers/getCliffNotes/handler.getCliffNotes
+    name: getCliffNotes
+    events:
+      - http:
+         path: users/getTop
+         method: GET
+         cors: true
+
+  updateCliffNotes:
+    handler: handlers/updateCliffNotes/handler.updateCliffNotes
+    name: updateCliffNotes
+    events:
+      - http:
+         path: users/getTop
+         method: POST
+         cors: true
+
+  getSpeakersList:
+    handler: handlers/getSpeakersList/handler.getSpeakersList
+    name: getSpeakersList
+    events:
+      - http:
+         path: users/getTop
+         method: GET
+         cors: true
+
+  updateSpeakersList:
+    handler: handlers/updateSpeakersList/handler.updateSpeakersList
+    name: updateSpeakersList
+    events:
+      - http:
+         path: users/getTop
+         method: POST
+         cors: true
+
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
 #    Check the event documentation for details
