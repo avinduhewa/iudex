@@ -65,6 +65,16 @@ functions:
          path: users/add
          method: POST
          cors: true
+         
+  getCommittee:
+    handler: handlers/getCommittee/handler.getCommittee
+    name: getCommittee
+    events:
+      - http:
+         path: users/getCommittee
+         method: GET
+         cors: true
+
   getTopDelegates:
     handler: handlers/getTopDelegates/handler.getTopDelegates
     name: getTopDelegates
