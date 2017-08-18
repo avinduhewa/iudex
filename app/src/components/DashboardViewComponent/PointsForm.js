@@ -1,18 +1,21 @@
 import React, { Component } from 'react';
+import CountryAuto from './SearchComponentCountry';
+import CriteriaAuto from './SearchComponentCriteria';
 
 
-// Country select
-const country = ['SriLanka', 'USA', 'India',];
-const countryList = country.map((Con, i) =>
+// // Country select
+// const country = ['SriLanka', 'USA', 'India',];
+// const countryList = country.map((Con, i) =>
 
-<option value={Con}  key={'Con' + i}>{Con}</option>
-);
-// criteria select
-const criteria = ['Debate', 'Speech', 'OtherStuff'];
-const criteriaList = criteria.map((criterias, i) =>
+// <option value={Con}  key={'Con' + i}>{Con}</option>
+// );
+// // criteria select
+// const criteria = ['Debate', 'Speech', 'OtherStuff'];
+// const criteriaList = criteria.map((criterias, i) =>
 
-<option value={criterias}   key={'criterias' + i}>{criterias}</option>
-);
+// <option value={criterias}   key={'criterias' + i}>{criterias}</option>
+// );
+
 
 
 class PointsForm extends Component {
@@ -60,23 +63,26 @@ class PointsForm extends Component {
       
   render() {
     return (
-    
-  
+   
+     
         <form className="ui form" onSubmit={this.onSubmit}>       
              
               <div className="field">  
                 <div className="four fields">
                   <div className="field"> 
-                  <select  value={this.state.countrySelect} onChange={this.onChange} name="countrySelect" className="ui search dropdown">
+                  <CountryAuto/>
+   
+                  {/* <select  value={this.state.countrySelect} onChange={this.onChange} name="countrySelect" className="ui search dropdown">
                   <option value="">Country</option>
                     {countryList}
-                  </select>  
+                  </select>   */}
                   </div>
                   <div className="field"> 
-                  <select value={this.state.criteriaSelect} onChange={this.onChange} name ="criteriaSelect" className="ui search dropdown">
+                  <CriteriaAuto/>      
+                  {/* <select value={this.state.criteriaSelect} onChange={this.onChange} name ="criteriaSelect" className="ui search dropdown">
                   <option value="">Criteria</option>
                     {criteriaList}
-                  </select>
+                  </select> */}
                   </div>
                   <div className="field"> 
                   <input type="number" value={this.state.poitsAssign} onChange={this.onChange} name="points" placeholder="Points"/>       
