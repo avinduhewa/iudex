@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 
 
 // Country select
-const country = ['SriLanka', 'USA', 'India'];
+const country = ['SriLanka', 'USA', 'India',];
 const countryList = country.map((Con, i) =>
 
 <option value={Con}  key={'Con' + i}>{Con}</option>
@@ -20,11 +20,19 @@ class DashboardViewGrid extends Component {
 
   constructor(props) {
     super(props);
+
     this.state = {
-      speakerName: ''
+      speakerName: '',
+      countrySearch:'country'
     }
     this.onChange = this.onChange.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
+    this.updateCountrySearch = this.updateCountrySearch.bind(this);
+  }
+
+  updateCountrySearch(e){
+    this.setState ({countrySearch : e.target.value})
+   
   }
 
   componentWillMount() {
@@ -53,6 +61,11 @@ class DashboardViewGrid extends Component {
     return (
       <div className ="DashboardViewGrid bodyCards">
 
+
+      {/* <input type ="text" value={this.state.countrySearch} onChange={this.updateCountrySearch}></input> */}
+
+
+
       <div className="ui row">
      <div className ="container">   
     <div className="ui grid">
@@ -65,7 +78,8 @@ class DashboardViewGrid extends Component {
         <div className="ui middle aligned left aligned grid textcard">
         <div className="">
        
-          <form className="ui form" onSubmit={this.onSubmit}>            
+          <form className="ui form" onSubmit={this.onSubmit}>       
+             
               <div className="field">  
                 <div className="four fields">
                   <div className="field"> 
@@ -181,7 +195,10 @@ class DashboardViewGrid extends Component {
           <div className="ui form">
             <div className="field">
               <label>Notes</label>
-              <textarea rows="2"></textarea>
+              {/* <textarea rows="2"></textarea> */}
+
+             
+
             </div>
             <button className="ui button" type="submit">Submit</button>
           </div>
