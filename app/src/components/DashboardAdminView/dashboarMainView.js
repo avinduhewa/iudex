@@ -14,8 +14,8 @@ class dashboarSelectView extends Component {
          <br/><br/>
          <div className="ui container">
              
-      <AdminView/>
-      {/* <SelectView/>  */}
+      {/* <AdminView/> */}
+      <SelectView/> 
           </div>
    
       </div>
