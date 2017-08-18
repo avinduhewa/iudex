@@ -7,7 +7,7 @@ class DashboardAdminSelect extends Component {
     return (
       <div className="DashboardAdminSelect bodyCards">
         
-        <div className="ui container">
+       
         <div className="ui card">
         <div className="content">
           <div className="header">Project Timeline</div>
@@ -19,7 +19,7 @@ class DashboardAdminSelect extends Component {
           <button className="ui button">Join Project</button>
         </div>
       </div>
-      </div>
+     
 
     </div>
     

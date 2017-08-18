@@ -2,6 +2,20 @@ import React, { Component } from 'react';
 
 
 
+
+// Country select
+const country = ['SriLanka', 'USA', 'India'];
+const countryList = country.map((Con, i) =>
+
+<option value={Con}  key={'Con' + i}>{Con}</option>
+);
+// criteria select
+const criteria = ['Debate', 'Speech', 'OtherStuff'];
+const criteriaList = criteria.map((criterias, i) =>
+
+<option value={criterias}   key={'criterias' + i}>{criterias}</option>
+);
+
 class DashboardViewGrid extends Component {
 
   constructor(props) {
@@ -29,6 +43,10 @@ class DashboardViewGrid extends Component {
     console.log(this.state);
   }
 
+
+  onSubmitNote(e){
+    console.log('zxcz')
+  }
  
 
   render() {
@@ -52,18 +70,12 @@ class DashboardViewGrid extends Component {
                 <div className="four fields">
                   <div className="field"> 
                   <select  value={this.state.countrySelect} onChange={this.onChange} name="countrySelect" className="ui search dropdown">
-                    <option value="">Country</option>
-                    <option value="AL">Alabama</option>
-                    <option value="AK">Alaska</option>
-                    <option value="AZ">Arizona</option>  
+                    {countryList}
                   </select>  
                   </div>
                   <div className="field"> 
                   <select value={this.state.criteriaSelect} onChange={this.onChange} name ="criteriaSelect" className="ui search dropdown">
-                    <option value="">Criteria</option>
-                    <option value="AL">Speech</option>
-                    <option value="AK">Debate</option>
-                    <option value="AZ">Shit</option>
+                    {criteriaList}
                   </select>
                   </div>
                   <div className="field"> 
@@ -165,12 +177,15 @@ class DashboardViewGrid extends Component {
          
         </div>
         <div className="extra content">
+        <form className="ui form" onSubmit={this.onSubmitNote}>      
           <div className="ui form">
             <div className="field">
               <label>Notes</label>
               <textarea rows="2"></textarea>
             </div>
+            <button className="ui button" type="submit">Submit</button>
           </div>
+          </form>
         </div>
       </div>
       

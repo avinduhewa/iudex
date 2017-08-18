@@ -11,10 +11,10 @@ class DashboardAdminView extends Component {
           <table className="ui celled structured table">
             <thead>
                 <tr>
-                <th rowspan="2">Name</th>
-                <th rowspan="2">Type</th>
-                <th rowspan="2">Files</th>
-                <th colspan="3">Languages</th>
+                <th rowSpan="2">Name</th>
+                <th rowSpan="2">Type</th>
+                <th rowSpan="2">Files</th>
+                <th colSpan="3">Languages</th>
                 </tr>
                 <tr>
                 <th>Ruby</th>
@@ -30,8 +30,7 @@ class DashboardAdminView extends Component {
                 <td className="center aligned">
                     <i className="large green checkmark icon"></i>
                 </td>
-                <td></td>
-                <td></td>
+                
                 </tr>
                 <tr>
                 <td rowspan="3">Beta Team</td>
@@ -40,8 +39,7 @@ class DashboardAdminView extends Component {
                 <td className="center aligned">
                     <i className="large green checkmark icon"></i>
                 </td>
-                <td></td>
-                <td></td>
+               
                 </tr>
                 <tr>
                 <td>Project 2</td>
@@ -50,7 +48,8 @@ class DashboardAdminView extends Component {
                 <td className="center aligned">
                     <i className="large green checkmark icon"></i>
                 </td>
-                <td></td>
+               
+               
                 </tr>
                 <tr>
                 <td>Project 3</td>
@@ -59,7 +58,7 @@ class DashboardAdminView extends Component {
                     <i className="large green checkmark icon"></i>
                 </td>
                 <td></td>
-                <td></td>
+               
                 </tr>
             </tbody>
             </table>
