@@ -22,9 +22,16 @@ class SideNavBar extends Component {
           <a className="item">
             Name
         </a>
+        <div className="right menu">
+            <div className="item">
+            <h3><b> National Youth Model United Nations - Sri Lanka</b></h3>
+            </div>
+          </div>
+    
+
           <div className="right menu">
             <div className="item">
-              <div onClick={this.onClick} className="ui primary button">Log out</div>
+              <div onClick={this.onClick} className="ui primary button log">Log out</div>
             </div>
           </div>
         </div>
