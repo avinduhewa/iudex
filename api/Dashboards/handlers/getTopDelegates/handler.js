@@ -1,6 +1,7 @@
 'use strict';
 
 const returnData = require('../../lib/return').returnData;
+const helper = require('./helper');
 const db = require('../../lib/database');
 
 const initDB = db.initDB;
@@ -14,8 +15,9 @@ module.exports.getTopDelegates = (event, context, callback) => {
 
     com.findOne({ _id: ObjectId(data.committee) })
       .then(comData => {
-        const delegates = comData.countries.sort(function (a, b) {
-          return b.points - a.points;
+        const countryList = helper.finalizeCommitteePoints(comData);
+        const delegates = countryList.sort(function (a, b) {
+          return b.totalPoints - a.totalPoints;
         })
         if (delegates.length > 10) delegates.length = 10;
 

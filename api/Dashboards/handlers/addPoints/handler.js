@@ -18,7 +18,17 @@ module.exports.addPoints = (event, context, callback) => {
         if (comData.admins.indexOf(data.email) > -1) {
           for (let i = 0; i < comData.countries.length; i++) {
             if (data.country === comData.countries[i].name) {
-              comData.countries[i].points += data.points;
+              if (data.category === 'fps' && comData.countries[i].points[data.position][data.category] > -1) {
+                return returnData({ status: 200, data: "User has already awarded points for FPS" }, context);
+              }
+              comData.countries[i].points[data.position][data.category] += data.points;
+              comData.logs.push({
+                timestamp: Math.floor(Date.now() / 1000),
+                chair: data.chair,
+                country: data.country,
+                category: data.category,
+                points: data.points
+              });
               break;
             }
           }
@@ -27,7 +37,7 @@ module.exports.addPoints = (event, context, callback) => {
             { $set: comData }
           );
         } else {
-        return returnData({ status: 200, data: "User does not have permission to add points" }, context);          
+          return returnData({ status: 200, data: "User does not have permission to add points" }, context);
         }
       })
       .then(comReturnData => {
