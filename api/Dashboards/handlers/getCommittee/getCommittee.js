@@ -11,9 +11,9 @@ module.exports.getCommittee = (event, context, callback) => {
   const data = event.queryStringParameters;
 
   initDB(db => {
-    const com = db.collection('Committees');
+    const COMMITTEE = db.collection('Committees');
 
-    com.findOne({ _id: ObjectId(data.committee) })
+    COMMITTEE.findOne({ _id: ObjectId(data.committee) })
       .then(comData => {
         const normalizedCommittee = this.normalizeCommittee(comData);
         return returnData({ status: 200, data: comData }, context);

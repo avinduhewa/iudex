@@ -65,6 +65,15 @@ functions:
          path: users/add
          method: POST
          cors: true
+
+  undo:
+    handler: handlers/undo/handler.undo
+    name: undo
+    events:
+      - http:
+         path: users/add
+         method: POST
+         cors: true
          
   getCommittee:
     handler: handlers/getCommittee/handler.getCommittee
