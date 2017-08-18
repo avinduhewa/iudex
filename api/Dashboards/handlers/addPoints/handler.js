@@ -11,23 +11,36 @@ module.exports.addPoints = (event, context, callback) => {
   const data = JSON.parse(event.body);
 
   initDB(db => {
-    const com = db.collection('Committees');
+    const COMMITTEE = db.collection('Committees');
 
-    com.findOne({ _id: ObjectId(data.committee) })
+    COMMITTEE.findOne({ _id: ObjectId(data.committee) })
       .then(comData => {
         if (comData.admins.indexOf(data.email) > -1) {
           for (let i = 0; i < comData.countries.length; i++) {
             if (data.country === comData.countries[i].name) {
-              comData.countries[i].points += data.points;
+              if (data.category === 'fps' && comData.countries[i].points[data.position][data.category] > -1) {
+                return returnData({ status: 200, data: "User has already awarded points for FPS" }, context);
+              }
+              comData.countries[i].points[data.position][data.category] += data.points;
+              comData.logs.push({
+                timestamp: Math.floor(Date.now() / 1000),
+                chair: data.name,
+                chairPosition: data.position,
+                email: data.email,
+                country: data.country,
+                category: data.category,
+                points: data.points,
+                type: 'add'
+              });
               break;
             }
           }
-          return com.findOneAndUpdate(
+          return COMMITTEE.findOneAndUpdate(
             { _id: ObjectId(data.committee) },
             { $set: comData }
           );
         } else {
-        return returnData({ status: 200, data: "User does not have permission to add points" }, context);          
+          return returnData({ status: 200, data: "User does not have permission to add points" }, context);
         }
       })
       .then(comReturnData => {
