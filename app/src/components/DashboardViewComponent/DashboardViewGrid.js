@@ -36,7 +36,7 @@ class DashboardViewGrid extends Component {
        
           <PointsForm/>
 
-            <div className="ui cards cardPosition">
+            <div className="ui cards ">
                 <LeaderBoard/>
                 <PendingSpeakers/>
                 <SpeakerList/>
@@ -52,7 +52,7 @@ class DashboardViewGrid extends Component {
       </div>
 
 
-      <div className="eight wide centered  ">
+      <div className="eight wide   ">
       <div className=" ">
       <JudgeNotes/>
       
