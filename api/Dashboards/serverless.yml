@@ -65,6 +65,25 @@ functions:
          path: users/add
          method: POST
          cors: true
+
+  undo:
+    handler: handlers/undo/handler.undo
+    name: undo
+    events:
+      - http:
+         path: users/add
+         method: POST
+         cors: true
+         
+  getCommittee:
+    handler: handlers/getCommittee/handler.getCommittee
+    name: getCommittee
+    events:
+      - http:
+         path: users/getCommittee
+         method: GET
+         cors: true
+
   getTopDelegates:
     handler: handlers/getTopDelegates/handler.getTopDelegates
     name: getTopDelegates
@@ -72,6 +91,51 @@ functions:
       - http:
          path: users/getTop
          method: GET
+         cors: true
+
+  getInactiveDelegates:
+    handler: handlers/getInactiveDelegates/handler.getInactiveDelegates
+    name: getInactiveDelegates
+    events:
+      - http:
+         path: users/getTop
+         method: GET
+         cors: true
+
+  getCliffNotes:
+    handler: handlers/getCliffNotes/handler.getCliffNotes
+    name: getCliffNotes
+    events:
+      - http:
+         path: users/getTop
+         method: GET
+         cors: true
+
+  updateCliffNotes:
+    handler: handlers/updateCliffNotes/handler.updateCliffNotes
+    name: updateCliffNotes
+    events:
+      - http:
+         path: users/getTop
+         method: POST
+         cors: true
+
+  getSpeakersList:
+    handler: handlers/getSpeakersList/handler.getSpeakersList
+    name: getSpeakersList
+    events:
+      - http:
+         path: users/getTop
+         method: GET
+         cors: true
+
+  updateSpeakersList:
+    handler: handlers/updateSpeakersList/handler.updateSpeakersList
+    name: updateSpeakersList
+    events:
+      - http:
+         path: users/getTop
+         method: POST
          cors: true
 
 #    The following are a few example events you can configure

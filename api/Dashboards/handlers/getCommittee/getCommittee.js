@@ -7,7 +7,7 @@ const db = require('../../lib/database');
 const initDB = db.initDB;
 const ObjectId = db.objectID;
 
-module.exports.getTopDelegates = (event, context, callback) => {
+module.exports.getCommittee = (event, context, callback) => {
   const data = event.queryStringParameters;
 
   initDB(db => {
@@ -15,14 +15,16 @@ module.exports.getTopDelegates = (event, context, callback) => {
 
     COMMITTEE.findOne({ _id: ObjectId(data.committee) })
       .then(comData => {
-        const countryList = helper.finalizeCommitteePoints(comData);
-        const delegates = countryList.sort(function (a, b) {
-          return b.totalPoints - a.totalPoints;
-        })
-        if (delegates.length > 10) delegates.length = 10;
-
-        return returnData({ status: 200, data: delegates }, context);
+        const normalizedCommittee = this.normalizeCommittee(comData);
+        return returnData({ status: 200, data: comData }, context);
       })
       .catch(err => returnData({ status: 402, data: err }, context));
   })
 };
+
+module.exports.normalizeCommittee = (comData) => {
+  for (let x in comData.countries){
+    delete comData.countries[x].points;
+  }
+  return comData;
+}

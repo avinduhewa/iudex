@@ -9,7 +9,7 @@ module.exports.hello = (event, context, callback) => {
 
     const USERS = db.collection('Users');
 
-    USERS.find({ _id: database.objectID(data._id) })
+    USERS.find({ email: data.email })
       .then(result => {
         return returnData({ status: 200, data: result });
       })

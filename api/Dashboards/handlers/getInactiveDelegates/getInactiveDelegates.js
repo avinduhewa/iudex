@@ -16,12 +16,7 @@ module.exports.getTopDelegates = (event, context, callback) => {
     COMMITTEE.findOne({ _id: ObjectId(data.committee) })
       .then(comData => {
         const countryList = helper.finalizeCommitteePoints(comData);
-        const delegates = countryList.sort(function (a, b) {
-          return b.totalPoints - a.totalPoints;
-        })
-        if (delegates.length > 10) delegates.length = 10;
-
-        return returnData({ status: 200, data: delegates }, context);
+        return returnData({ status: 200, data: countryList }, context);
       })
       .catch(err => returnData({ status: 402, data: err }, context));
   })
