@@ -4,7 +4,7 @@ import PendingSpeakers from './PendingSpeakers';
 import SpeakerList from './SpeakerList';
 import PointsForm from './PointsForm';
 import JudgeNotes from './JudgeNotes';
-import './DashboardViewComponent.css';
+// import './DashboardViewComponent.css';
 
 
 
