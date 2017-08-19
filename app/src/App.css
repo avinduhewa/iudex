@@ -3,6 +3,7 @@ body {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  overflow:visible !important;
   
 }
 .titleText{
@@ -29,10 +30,17 @@ body {
   padding-left :30px;
 }
 
+.committee{
+  color: white;
+}
+
 #cardNotes{
   height: 450px !important;
   width: 250px !important;
   padding-top: 20px;
+}
+#activityCard{
+  width: 2500px !important;
 }
 
 
