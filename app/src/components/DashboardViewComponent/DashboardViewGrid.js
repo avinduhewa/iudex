@@ -40,6 +40,7 @@ class DashboardViewGrid extends Component {
                 <LeaderBoard/>
                 <PendingSpeakers/>
                 <SpeakerList/>
+               
              </div>
   
 
@@ -53,7 +54,8 @@ class DashboardViewGrid extends Component {
 
 
       <div className="eight wide   ">
-      <div className=" ">
+      <div className="ui row ">
+    
       <JudgeNotes/>
       
         </div>

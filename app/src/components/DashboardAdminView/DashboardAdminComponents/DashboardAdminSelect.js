@@ -55,7 +55,7 @@ class DashboardAdminSelect extends Component {
                           <div className="list">
                             <div className="ui list">
                               <div className="item">
-                                <div class="ui divider"></div>
+                                <div className="ui divider"></div>
                                 <div className="content">
                                   <div className="header">Debating - {50}</div>
                                   <div className="header">Lobbying - {20}</div>
@@ -87,7 +87,7 @@ class DashboardAdminSelect extends Component {
                           <div className="list">
                             <div className="ui list">
                               <div className="item">
-                                <div class="ui divider"></div>
+                                <div className="ui divider"></div>
                                 <div className="content">
                                   <div className="header">Debating - {20}</div>
                                   <div className="header">Lobbying - {20}</div>

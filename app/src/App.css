@@ -36,9 +36,18 @@ body {
 
 #cardNotes{
   height: 450px !important;
+  width: 400px !important;
+  padding-top: 20px;
+}
+
+
+#speakerList{
+  height: 500px !important;
   width: 250px !important;
   padding-top: 20px;
 }
+
+
 #activityCard{
   width: 2500px !important;
 }
