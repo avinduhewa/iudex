@@ -1,24 +1,121 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+body {
+  
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   overflow:visible !important;
+   
+ }
+ .titleText{
+   color: white;
+ }
+ 
+ .bodyCards{
+ 
+   padding-top: 100px;
+ }
+ .GridName{
+    text-align: center;
+    -webkit-text-fill-color: white;
+ 
+ }
+ 
+ 
+ .cardPosition{
+   padding-top: 50px;
+ }
+ 
+ 
+ .textcard{
+   padding-left :30px;
+ }
+ 
+ .committee{
+   color: white;
+ }
+ 
+ #cardNotes{
+   height: 450px !important;
+   width: 400px !important;
+   padding-top: 20px;
+ }
+ 
+ 
+ #speakerList{
+   height: 500px !important;
+   width: 250px !important;
+   padding-top: 20px;
+ }
+ 
+ 
+ #activityCard{
+   width: 2500px !important;
+ }
+ 
+ 
+ .react-autosuggest__container {
+   position: relative;
+   margin-bottom: 20px;
+ }
+ 
+ .react-autosuggest__input {
+   width: 200px;
+   height: 40px;
+   padding: 10px 20px;
+   font-family: Helvetica, sans-serif;
+   font-weight: 300;
+   font-size: 16px;
+   border: 1px solid #aaa;
+   border-radius: 4px;
+ }
+ 
+ .react-autosuggest__input--focused {
+   outline: none;
+ }
+ 
+ .react-autosuggest__input--open {
+   border-bottom-left-radius: 0;
+   border-bottom-right-radius: 0;
+ }
+ 
+ .react-autosuggest__suggestions-container {
+   display: none;
+ }
+ 
+ .react-autosuggest__suggestions-container--open {
+   display: block;
+   position: absolute;
+   width: 280px;
+   border: 1px solid #aaa;
+   background-color: #fff;
+   font-family: Helvetica, sans-serif;
+   font-weight: 300;
+   font-size: 16px;
+   border-bottom-left-radius: 4px;
+   border-bottom-right-radius: 4px;
+   z-index: 2;
+ }
+ 
+ .react-autosuggest__suggestions-list {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+ }
+ 
+ .react-autosuggest__suggestion {
+   cursor: pointer;
+   padding: 10px 20px;
+ }
+ 
+ .react-autosuggest__suggestion--highlighted {
+   background-color: #ddd;
+ }
+ 
+ 
+ 
+ 
+ body {background-color:#03a9f4;z-index:1;overflow-y:hidden;overflow-x:hidden;}
+ 
+ 
+ 
+ 
