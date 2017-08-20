@@ -7,7 +7,7 @@ class SpeakerList extends Component {
     return (
 
 
-      <div className="ui card" id="speakerList">
+      <div className="ui card" id="speakerList" style={{ overflow: 'auto' }}>
 
         <div className="content">
 
@@ -33,6 +33,7 @@ class SpeakerList extends Component {
             <div className="description">Updated 34 mins ago</div>
           </div>
         </div>
+        
       </div>
 
         </div>

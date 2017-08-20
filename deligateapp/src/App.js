@@ -9,7 +9,10 @@ class App extends Component {
     return (
       <div className="App">
     <SideNavBar/>
+    <div className ="ui container">
     <Dashboard/>
+        </div>
+   
       </div>
     );
   }

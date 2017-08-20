@@ -7,7 +7,7 @@ class PendingSpeakers extends Component {
     return (
     
   
-        <div className="card">
+        <div className="card" style={{ overflow: 'auto' }}>
           <div className="content">
             <div className="header">Veronika Ossi</div>
             <div className="meta">Friend</div>
