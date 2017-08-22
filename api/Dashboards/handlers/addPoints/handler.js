@@ -9,8 +9,8 @@ const ObjectId = db.objectID;
 module.exports.addPoints = (event, context, callback) => {
 
   const data = JSON.parse(event.body);
-
-  if(data.category == '1') {
+  data.points = parseInt(data.points);
+  if (data.category == '1') {
     data.category = "debating";
   } else if (data.category == '2') {
     data.category = "lobbying";
@@ -19,19 +19,32 @@ module.exports.addPoints = (event, context, callback) => {
   } else {
     data.category = "fps";
   }
-
+  console.log('1', data);
   initDB(db => {
     const COMMITTEE = db.collection('Committees');
 
     COMMITTEE.findOne({ _id: ObjectId(data.committee) })
       .then(comData => {
+        console.log('2', comData);
         if (comData.admins.indexOf(data.email) > -1) {
+          console.log(comData.countries.length);
           for (let i = 0; i < comData.countries.length; i++) {
+            console.log(data.country === comData.countries[i].name, data.country == comData.countries[i].name);
             if (data.country === comData.countries[i].name) {
+              console.log(data.category);
               if (data.category === 'fps' && comData.countries[i].points[data.position][data.category] > -1) {
                 return returnData({ status: 200, data: "User has already awarded points for FPS" }, context);
               }
-              comData.countries[i].points[data.position][data.category] += data.points;
+              if (data.category == 'debating') {
+                comData.countries[i].points[data.position].debating += data.points;
+              } else if (data.category == 'lobbying') {
+                comData.countries[i].points[data.position].lobbying += data.points;
+              } else if (data.category == 'protocol') {
+                comData.countries[i].points[data.position].protocol += data.points;
+              } else {
+                comData.countries[i].points[data.position].fps += data.points;
+              }
+              console.log(comData);
               comData.logs.push({
                 timestamp: Math.floor(Date.now() / 1000),
                 chair: data.name,
@@ -45,6 +58,8 @@ module.exports.addPoints = (event, context, callback) => {
               break;
             }
           }
+          console.log('4', comData);
+          delete comData._id;
           return COMMITTEE.findOneAndUpdate(
             { _id: ObjectId(data.committee) },
             { $set: comData }
@@ -54,7 +69,7 @@ module.exports.addPoints = (event, context, callback) => {
         }
       })
       .then(comReturnData => {
-        console.log(comReturnData);
+        console.log('3', comReturnData);
         return returnData({ status: 200, data: comReturnData.value }, context);
       })
       .catch(err => returnData({ status: 402, data: err }, context));

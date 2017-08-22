@@ -58,7 +58,9 @@ class PointsForm extends Component {
         email: window.localStorage.getItem('email'),
         country: this.state.country,
         category: this.state.category,
-        points: this.state.points
+        points: parseInt(this.state.points),
+        position: window.localStorage.getItem('position'),
+        name: window.localStorage.getItem('name')
       }),
       headers: {
         'Content-Type': 'application/json',
@@ -68,15 +70,7 @@ class PointsForm extends Component {
     }
     axios(options)
       .then((resp) => {
-        console.log(resp.data.data);
-        if (resp.data.data.login) {
-          window.localStorage.setItem('email', resp.data.data.user.email);
-          window.localStorage.setItem('login', resp.data.data.login);
-          window.localStorage.setItem('admin', resp.data.data.admin);
-          window.location.assign('/app');
-        } else {
-          this.setState({ error: "Incorrect email and password" })
-        }
+       console.log("succeess");
       })
       .catch(console.error)
   }

@@ -37,6 +37,8 @@ class Login extends Component {
       .then((resp) => {
         console.log(resp.data.data);
         if(resp.data.data.login) {
+          window.localStorage.setItem('position', resp.data.data.user.position);
+          window.localStorage.setItem('name', resp.data.data.user.name);
           window.localStorage.setItem('email', resp.data.data.user.email);
           window.localStorage.setItem('committee', resp.data.data.user.committee);
           window.localStorage.setItem('login', resp.data.data.login);

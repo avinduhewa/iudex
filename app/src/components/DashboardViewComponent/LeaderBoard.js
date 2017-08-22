@@ -14,12 +14,21 @@ class LeaderBoard extends Component {
   }
   componentDidMount() {
     axios.get(`https://3wejisthn9.execute-api.ap-southeast-1.amazonaws.com/dev/getTop?committee=${'598ad84f734d1d2227f453fb'}`)
+    .then((resp) => {
+      this.setState({
+        delegates: resp.data.data
+      })
+    })
+    .catch(console.error);
+    setInterval(() => {
+      axios.get(`https://3wejisthn9.execute-api.ap-southeast-1.amazonaws.com/dev/getTop?committee=${'598ad84f734d1d2227f453fb'}`)
       .then((resp) => {
         this.setState({
           delegates: resp.data.data
         })
       })
       .catch(console.error)
+    }, 5000)
   }
 
   render() {

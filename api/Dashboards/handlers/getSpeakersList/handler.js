@@ -1,14 +1,13 @@
 'use strict';
 
 const returnData = require('../../lib/return').returnData;
-const helper = require('./helper');
 const db = require('../../lib/database');
 
 const initDB = db.initDB;
 const ObjectId = db.objectID;
 
 module.exports.getSpeakersList = (event, context, callback) => {
-  const data = JSON.parse(event.body);
+  const data = event.queryStringParameters;
   
   initDB(db => {
     const COMMITTEE = db.collection('Committees');
