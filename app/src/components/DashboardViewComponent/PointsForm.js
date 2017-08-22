@@ -16,18 +16,18 @@ import CriteriaAuto from './SearchComponentCriteria';
 // <option value={criterias}   key={'criterias' + i}>{criterias}</option>
 // );
 
-function handleEnter(event) {
-  if (event.keyCode === 13) {
-    const form = event.target  ;
-    const index = Array.prototype.indexOf.call(form, event.target);
-    form.elements[index + 1].focus();
-    event.preventDefault();
-  }
-}
+// function handleEnter(event) {
+//   if (event.keyCode === 13) {
+//     const form = event.target  ;
+//     const index = Array.prototype.indexOf.call(form, event.target);
+//     form.elements[index + 1].focus();
+//     event.preventDefault();
+//   }
+// }
 
-function MyInput(props) {
-  return <input onKeyDown={handleEnter} {...props} />;
-}
+// function MyInput(props) {
+//   return <input onKeyDown={handleEnter} {...props} />;
+// }
 
 class PointsForm extends Component {
 
@@ -46,13 +46,13 @@ class PointsForm extends Component {
       }
 
         
-  componentDidMount() {
-    for (let x in this.refs) {
-      this.refs[x].onkeypress = (e) => 
-        this._handleKeyPress(e, this.refs[x]);
-    }
-    this.refs.name.focus();
-  }
+  // componentDidMount() {
+  //   for (let x in this.refs) {
+  //     this.refs[x].onkeypress = (e) => 
+  //       this._handleKeyPress(e, this.refs[x]);
+  //   }
+  //   this.refs.name.focus();
+  // }
   
   _handleKeyPress(e, field) {
     // If enter key is pressed, focus next input field.
