@@ -25,7 +25,7 @@ class SpeakerLIstloop extends Component {
      <ul>
 {
   this.props.speakerList.map(speakerList=>{
-    return<li speakerList = {speakerList}  key={speakerList.id}>{speakerList.speaker}</li>
+    return<li   key={speakerList.id}>{speakerList.speaker}</li>
   })
 }
        </ul>
