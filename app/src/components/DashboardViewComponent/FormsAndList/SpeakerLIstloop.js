@@ -14,6 +14,11 @@ class SpeakerLIstloop extends Component {
 
   }
 
+
+  handleCheckbox(){
+    alert("checked");
+  }
+
   render() {
     return (
 
@@ -38,7 +43,7 @@ class SpeakerLIstloop extends Component {
                   <div className="content">
                     <div className="header">{speakerList.speaker}</div>
                   
-                    <div className="ui checkbox right floated " >
+                    <div className="ui checkbox right floated "  onChange={this.handleCheckbox}>
                       <input type="checkbox" name="example" />
                       <label></label>
                     </div>
