@@ -6,71 +6,70 @@ import PointsForm from './PointsForm';
 import JudgeNotes from './JudgeNotes';
 // import './DashboardViewComponent.css';
 
-
-
-
 class DashboardViewGrid extends Component {
 
 
 
   render() {
     return (
-      <div className ="DashboardViewGrid bodyCards">
+      <div className="DashboardViewGrid bodyCards">
 
 
 
 
 
 
-      <div className="ui row">
-     <div className ="container">   
-    <div className="ui grid">
-      <div className="eight wide ">
+        <div className="ui row">
+          <div className="container">
+            <div className="ui grid">
+              <div className="eight wide ">
 
 
-        
-      <div className = "textcard">
-      <div className ="container">   
-        <div className="ui middle aligned left aligned grid textcard">
-        <div className="">
-       
-          <PointsForm/>
 
-            <div className="ui cards ">
-                <LeaderBoard/>
-                <PendingSpeakers/>
-                <SpeakerList/>
-             </div>
-  
+                <div className="textcard">
+                  <div className="container">
+                    <div className="ui middle aligned left aligned grid textcard">
+                      <div className="">
+
+                        <PointsForm />
+
+                        <div className="ui cards ">
+                          <LeaderBoard />
+                          <PendingSpeakers />
+                          <SpeakerList />
+
+                        </div>
 
 
-      
+
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div className="eight wide   ">
+                <div className="ui row ">
+
+                  <JudgeNotes />
+
+                </div>
+              </div>
+            </div>
+          </div >
+
+
+
+
+
+
+
+
+
+
         </div>
-        </div>
-        </div>
-        </div>
-      </div>
-
-
-      <div className="eight wide   ">
-      <div className=" ">
-      <JudgeNotes/>
-      
-        </div>
-      </div>
-     </div>
-    </div >
-          
-            
-
-
-
-
-
-
-
-
-    </div>
       </div>
     );
   }

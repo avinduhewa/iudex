@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import axios from 'axios';
 
 
+
+
 class LeaderBoard extends Component {
   constructor() {
     super();
@@ -23,11 +25,24 @@ class LeaderBoard extends Component {
   render() {
     return (
 
-      <div className="card">
+      // <div className="card">
+      //   <div className="content">
+      //     {this.state.delegates.map((item, index) => (
+      //       <div className="header" key={index}>{item.name} - {item.totalPoints}</div>
+      //     ))}
+      <div className="card" style={{ overflow: 'auto' }}>
         <div className="content">
-          {this.state.delegates.map((item, index) => (
-            <div className="header" key={index}>{item.name} - {item.totalPoints}</div>
-          ))}
+          <div className="hea der">Elliot Fu</div>
+          <div className="meta">Friend</div>
+          <div className="description">
+            <div className="ui middle aligned animated list">
+              <div className="item">
+                <div className="content">
+                  <div className="header">Daniel</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
