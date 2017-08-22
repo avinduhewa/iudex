@@ -2,7 +2,7 @@
 
 module.exports.finalizeCommitteePoints = (comData) => {
   const countries = [];
-  for (let country of comData.countries) {
+  for (let country of comData.country) {
     let totalPoints = 0;
     for (let points of country.points) {
       const debating = (points.debating / 500) * 175;
@@ -14,7 +14,7 @@ module.exports.finalizeCommitteePoints = (comData) => {
     }
     let temp_country = country;
     temp_country.totalPoints = totalPoints;
-    if (temp_country.totalPoints === 0) countries.push(temp_country);
+    countries.push(temp_country);
   }
   return countries;
 }

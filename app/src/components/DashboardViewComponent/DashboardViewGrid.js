@@ -6,8 +6,6 @@ import PointsForm from './PointsForm';
 import JudgeNotes from './JudgeNotes';
 // import './DashboardViewComponent.css';
 
-
-
 class DashboardViewGrid extends Component {
 
 

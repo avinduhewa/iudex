@@ -62,7 +62,7 @@ functions:
     name: addPoints
     events:
       - http:
-         path: users/add
+         path: add
          method: POST
          cors: true
 
@@ -71,7 +71,7 @@ functions:
     name: undo
     events:
       - http:
-         path: users/add
+         path: undo
          method: POST
          cors: true
          
@@ -80,7 +80,7 @@ functions:
     name: getCommittee
     events:
       - http:
-         path: users/getCommittee
+         path: getCommittee
          method: GET
          cors: true
 
@@ -89,7 +89,7 @@ functions:
     name: getTopDelegates
     events:
       - http:
-         path: users/getTop
+         path: getTop
          method: GET
          cors: true
 
@@ -98,7 +98,7 @@ functions:
     name: getInactiveDelegates
     events:
       - http:
-         path: users/getTop
+         path: getInactiveDelegates
          method: GET
          cors: true
 
@@ -107,7 +107,7 @@ functions:
     name: getCliffNotes
     events:
       - http:
-         path: users/getTop
+         path: getCliffNotes
          method: GET
          cors: true
 
@@ -116,7 +116,7 @@ functions:
     name: updateCliffNotes
     events:
       - http:
-         path: users/getTop
+         path: updateCliffNotes
          method: POST
          cors: true
 
@@ -125,7 +125,7 @@ functions:
     name: getSpeakersList
     events:
       - http:
-         path: users/getTop
+         path: getSpeakersList
          method: GET
          cors: true
 
@@ -134,8 +134,26 @@ functions:
     name: updateSpeakersList
     events:
       - http:
-         path: users/getTop
+         path: updateSpeakersList
          method: POST
+         cors: true
+
+  getOverallPoints:
+    handler: handlers/getOverallPoints/handler.getOverallPoints
+    name: getOverallPoints
+    events:
+      - http:
+         path: getOverallPoints
+         method: GET
+         cors: true
+
+  getActivityLog:
+    handler: handlers/getActivityLog/handler.getActivityLog
+    name: getActivityLog
+    events:
+      - http:
+         path: getActivityLog
+         method: GET
          cors: true
 
 #    The following are a few example events you can configure
