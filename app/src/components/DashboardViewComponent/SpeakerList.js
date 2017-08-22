@@ -10,11 +10,13 @@ class SpeakerList extends Component {
     super(props);
     this.state = {
       judgeNote: '',
+      
 
       speakerList: [],
       committee: window.localStorage.getItem('committee')
     };
     this.handleSubmitSpeaker = this.handleSubmitSpeaker.bind(this);
+    this.handelCheckValue = this.handelCheckValue.bind(this);
   }
 
   componentDidMount() {
@@ -40,14 +42,17 @@ class SpeakerList extends Component {
   handelCheckValue(checkValue){
 
     if(checkValue == 'on'){
-      checkValue = true;
+      this.setState({
+        checked : !this.state.checked,
+      });
+      this.callupdateAPI(this.state.speakerList);
     }
     else{
       checkValue = false;
     }
 
 
-    callupdateAPI(this.state.speakerList);
+    
 
 
   }
