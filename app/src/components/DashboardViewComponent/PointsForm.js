@@ -58,7 +58,9 @@ class PointsForm extends Component {
         email: window.localStorage.getItem('email'),
         country: this.state.country,
         category: this.state.category,
-        points: this.state.points
+        points: parseInt(this.state.points),
+        position: window.localStorage.getItem('position'),
+        name: window.localStorage.getItem('name')
       }),
       headers: {
         'Content-Type': 'application/json',
