@@ -20,25 +20,33 @@ class SpeakerLIstloop extends Component {
 
 
       <div>
-            <div className="ui  segment">
-        <div className="ui  relaxed divided list">
-        
-          {
-            this.props.speakerList.map(speakerList => {
-              return (<div className="item" key={speakerList.id}>
-                <div className="content">
-                  <div className="header">{speakerList.speaker}</div>
+
+        <div className="ui  segment">
+          <div className="ui  relaxed divided list">
+
+            {
+              this.props.speakerList.map(speakerList => {
+                return (<div className="item" key={speakerList.id}>
+                  <div className="content">
+                    <div className="header">{speakerList.speaker}</div>
+
+                    <div className="ui checkbox">
+                      <input type="checkbox" name="example" />
+                      <label></label>
+                    </div>
+
+
+                  </div>
                 </div>
-              </div>
 
-              )
-            })
-          }
-      
+                )
+              })
+            }
 
-    
+
+
+          </div>
         </div>
-      </div>
 
 
 
