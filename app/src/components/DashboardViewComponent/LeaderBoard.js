@@ -26,25 +26,20 @@ class LeaderBoard extends Component {
     return (
 
       <div className="card">
-        <div className="content">
-          {this.state.delegates.map((item, index) => (
-            <div className="header" key={index}>{item.name} - {item.totalPoints}</div>
-          ))}
-      {/* <div className="card" style={{ overflow: 'auto' }}>
-        <div className="content">
-          <div className="hea der">Elliot Fu</div>
-          <div className="meta">Friend</div>
-          <div className="description">
-            <div className="ui middle aligned animated list">
-              <div className="item">
+        <h3 className="ui center aligned icon header">
+          <br />
+          Leader Board
+          </h3>
+        <div className="ui  segment">
+          <div className="ui  relaxed divided list">
+            {this.state.delegates.map((item, index) => (
+              <div className="item" >
                 <div className="content">
-                  <div className="header">Daniel</div>
+                  <div className="header" key={index}>{item.name} - {item.totalPoints} </div>
                 </div>
               </div>
-            </div>
-          </div> */}
-          
-          
+            ))}
+          </div>
         </div>
       </div>
 

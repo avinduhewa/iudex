@@ -23,6 +23,10 @@ class JudgeNotes extends Component {
 
 
       <div className="ui card" id="cardNotes" >
+           <h3 className="ui invert center aligned icon header">
+           
+            Role call
+           </h3>
 
 
         <div className="content" style={{ overflow: 'auto' }}>

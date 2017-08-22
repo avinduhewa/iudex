@@ -9,9 +9,9 @@ class SpeakerLIstloop extends Component {
     super(props);
 
     this.state = {
-  
+
     }
-   
+
   }
 
   render() {
@@ -20,25 +20,29 @@ class SpeakerLIstloop extends Component {
 
 
       <div>
-   <div className="ui relaxed divided list" >
-
-     <ul>
-{
-  this.props.speakerList.map(speakerList=>{
-    return<li   key={speakerList.id}>{speakerList.speaker}</li>
-  })
-}
-       </ul>
-                <div className="item">
-                
-                  <div className="content">
-                 
-                    <div className="description">Updated 10 mins ago</div>
-                  </div>
+            <div className="ui  segment">
+        <div className="ui  relaxed divided list">
+        
+          {
+            this.props.speakerList.map(speakerList => {
+              return (<div className="item" key={speakerList.id}>
+                <div className="content">
+                  <div className="header">{speakerList.speaker}</div>
                 </div>
-               
-          </div>
+              </div>
+
+              )
+            })
+          }
+      
+
+    
+        </div>
       </div>
+
+
+
+      </  div>
 
 
 
