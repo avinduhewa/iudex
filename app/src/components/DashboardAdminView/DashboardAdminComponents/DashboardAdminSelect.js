@@ -1,40 +1,12 @@
 import React, { Component } from 'react';
-import './accordion.css';
-
-
 
 
 
 class DashboardAdminSelect extends Component {
-
-  handleClick() {
-    var acc = document.getElementsByClassName("accordion");
-    var i;
-    debugger;
-    console.log(acc)
-    for (i = 0; i < acc.length; i++) {
-      debugger;
-      acc[i].onclick = function () {
-        debugger;
-        /* Toggle between adding and removing the "active" class,
-        to highlight the button that controls the panel */
-        this.classList.toggle("active");
-
-        /* Toggle between hiding and showing the active panel */
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-          panel.style.display = "none";
-        } else {
-          panel.style.display = "block";
-        }
-      }
-    }
-  }
-
-
   render() {
     return (
-      <div className="DashboardAdminSelect ">
+
+      
 
         <div className="ui card " id="activityCard">
           <div className="content">
@@ -108,11 +80,28 @@ class DashboardAdminSelect extends Component {
           <div className="extra content">
             {/* <button className="ui button">Join Project</button> */}
           </div>
+
+      <div className="DashboardAdminSelect bodyCards">
+        
+       
+        <div className="ui card">
+        <div className="content">
+          <div className="header">Project Timeline</div>
         </div>
+        <div className="content">
+          fhgfhghgfhg
+        </div>
+        <div className="extra content">
+          <button className="ui button">Join Project</button>
 
-
+        </div>
       </div>
+     </div>
+     </div>
+    
+   
 
+   
     );
   }
 }

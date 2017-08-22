@@ -40,6 +40,11 @@ body {
   padding-top: 20px;
 }
 
+#adminvire{
+  height: 500px !important;
+  width: 1000px !important;
+}
+
 
 #speakerList{
   height: 500px !important;

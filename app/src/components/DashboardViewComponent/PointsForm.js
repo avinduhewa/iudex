@@ -16,7 +16,18 @@ import CriteriaAuto from './SearchComponentCriteria';
 // <option value={criterias}   key={'criterias' + i}>{criterias}</option>
 // );
 
+function handleEnter(event) {
+  if (event.keyCode === 13) {
+    const form = event.target  ;
+    const index = Array.prototype.indexOf.call(form, event.target);
+    form.elements[index + 1].focus();
+    event.preventDefault();
+  }
+}
 
+function MyInput(props) {
+  return <input onKeyDown={handleEnter} {...props} />;
+}
 
 class PointsForm extends Component {
 
@@ -31,7 +42,29 @@ class PointsForm extends Component {
         this.onChange = this.onChange.bind(this);
         this.onSubmit = this.onSubmit.bind(this);
         this.updateCountrySearch = this.updateCountrySearch.bind(this);
+        this._handleKeyPress = this._handleKeyPress.bind(this);
       }
+
+        
+  componentDidMount() {
+    for (let x in this.refs) {
+      this.refs[x].onkeypress = (e) => 
+        this._handleKeyPress(e, this.refs[x]);
+    }
+    this.refs.name.focus();
+  }
+  
+  _handleKeyPress(e, field) {
+    // If enter key is pressed, focus next input field.
+    if (e.keyCode === 13) {
+      e.preventDefault();
+      let next = this.refs[field.name].nextSibling;
+      if (next && next.tagName === "INPUT") {
+        this.refs[field.name].nextSibling.focus();
+      }
+    }
+  }
+
     
       updateCountrySearch(e){
         this.setState ({countrySearch : e.target.value})
@@ -70,7 +103,7 @@ class PointsForm extends Component {
               <div className="field">  
                 <div className="four fields">
                   <div className="field"> 
-                  <CountryAuto/>
+                  <CountryAuto />
    
                   {/* <select  value={this.state.countrySelect} onChange={this.onChange} name="countrySelect" className="ui search dropdown">
                   <option value="">Country</option>
