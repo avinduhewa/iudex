@@ -30,6 +30,12 @@ class PendingSpeakers extends Component {
     
   
         <div className="card" style={{ overflow: 'auto' }}>
+            <h3 className="ui center aligned icon header">
+            <br/>
+            Speaker List
+           </h3>
+
+
           <div className="content">
             <div className="header">Veronika Ossi</div>
             <div className="meta">Friend</div>
