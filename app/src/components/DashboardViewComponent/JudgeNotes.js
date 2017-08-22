@@ -27,34 +27,75 @@ class JudgeNotes extends Component {
 
         <div className="content" style={{ overflow: 'auto' }}>
 
-          <div className="ui relaxed divided list">
-            <div className="item">
-              <i className="large github middle aligned icon"></i>
-              <div className="content">
-                <a className="header">Semantic-Org/Semantic-UI</a>
-                
+          <table className="ui celled padded table">
+            <thead>
+              <tr>
+                <th>Country</th>
+                <th>Morning Session</th>
+                <th>Noon Session</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <h4 className="ui image header">
 
-              </div>
-              <div className="right floated content">
+                    <div className="content">
+                      Srilanka
+                    </div>
+                  </h4></td>
+                <td>
+                  <div className="ui checkbox">
+                    <input type="checkbox" name="morningSession" />
+                    <label></label>
+                  </div>
+                </td>
+                <td>
+                  <div className="ui checkbox">
+                    <input type="checkbox" name="noonSession" />
+                    <label></label>
+                  </div>
+                </td>
 
-              </div>
-            </div>
-            <div className="item">
-              <i className="large github middle aligned icon"></i>
-              <div className="content">
-                <a className="header">Semantic-Org/Semantic-UI-Docs</a>
-                <div className="description">Updated 22 mins ago</div>
-              </div>
-            </div>
-            <div className="item">
-              <i className="large github middle aligned icon"></i>
-              <div className="content">
-                <a className="header">Semantic-Org/Semantic-UI-Meteor</a>
-                <div className="description">Updated 34 mins ago</div>
-              </div>
-            </div>
-          </div>
+              </tr>
+              <tr>
+                <td>
+                  <h4 className="ui image header">
 
+                    <div className="content">
+                      Srilanka
+                    </div>
+                  </h4></td>
+                <td>
+                  <div className="ui checkbox">
+                    <input type="checkbox" name="morningSession" />
+                    <label></label>
+                  </div>
+                </td>
+                <td>
+                  <div className="ui checkbox">
+                    <input type="checkbox" name="noonSession" />
+                    <label></label>
+                  </div>
+                </td>
+
+              </tr>
+
+
+
+            </tbody>
+      
+          </table>
+
+
+        </div>
+        <div className="extra content">
+          <form className="ui form" onSubmit={this.handleSubmit}>
+            <div className="ui form">
+
+              <button className="ui button" type="submit">Save</button>
+            </div>
+          </form>
         </div>
 
       </div>
