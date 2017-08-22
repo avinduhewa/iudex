@@ -25,12 +25,12 @@ class LeaderBoard extends Component {
   render() {
     return (
 
-      // <div className="card">
-      //   <div className="content">
-      //     {this.state.delegates.map((item, index) => (
-      //       <div className="header" key={index}>{item.name} - {item.totalPoints}</div>
-      //     ))}
-      <div className="card" style={{ overflow: 'auto' }}>
+      <div className="card">
+        <div className="content">
+          {this.state.delegates.map((item, index) => (
+            <div className="header" key={index}>{item.name} - {item.totalPoints}</div>
+          ))}
+      {/* <div className="card" style={{ overflow: 'auto' }}>
         <div className="content">
           <div className="hea der">Elliot Fu</div>
           <div className="meta">Friend</div>
@@ -42,7 +42,7 @@ class LeaderBoard extends Component {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           
           
         </div>

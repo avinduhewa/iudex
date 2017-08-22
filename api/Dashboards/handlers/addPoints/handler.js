@@ -10,6 +10,16 @@ module.exports.addPoints = (event, context, callback) => {
 
   const data = JSON.parse(event.body);
 
+  if(data.category == '1') {
+    data.category = "debating";
+  } else if (data.category == '2') {
+    data.category = "lobbying";
+  } else if (data.category == '3') {
+    data.category = "protocol";
+  } else {
+    data.category = "fps";
+  }
+
   initDB(db => {
     const COMMITTEE = db.collection('Committees');
 
