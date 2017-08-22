@@ -82,6 +82,7 @@ class SpeakerList extends Component {
           <SpeakerLIstloop speakerList={this.state.speakerList} />
 
         </div>
+          
         <div className="extra content">
           <SpeakerForm onSubmitSpeaker={this.handleSubmitSpeaker} />
         </div>
