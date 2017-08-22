@@ -6,6 +6,9 @@ class SideNavBar extends Component {
   constructor() {
     super();
     this.onClick = this.onClick.bind(this);
+    this.state = {
+      name: window.localStorage.getItem("name")
+    }
   }
 
   onClick(e) {
@@ -20,14 +23,14 @@ class SideNavBar extends Component {
       <div className="SideNavBar navigation">
         <div className="ui inverted  menu">
           <a className="item">
-            Name
+            {this.state.name}
         </a>
-        <div className="right menu">
+          <div className="right menu">
             <div className="item">
-            <h3><b> National Youth Model United Nations - Sri Lanka</b></h3>
+              <h3><b> National Youth Model United Nations - Sri Lanka</b></h3>
             </div>
           </div>
-    
+
 
           <div className="right menu">
             <div className="item">

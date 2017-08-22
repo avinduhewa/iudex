@@ -21,7 +21,6 @@ class LeaderBoard extends Component {
     })
     .catch(console.error);
     setInterval(() => {
-      console.log('here');
       axios.get(`https://3wejisthn9.execute-api.ap-southeast-1.amazonaws.com/dev/getTop?committee=${'598ad84f734d1d2227f453fb'}`)
       .then((resp) => {
         this.setState({
