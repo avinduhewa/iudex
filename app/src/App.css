@@ -41,8 +41,8 @@ body {
   height: 450px !important;
   width: 400px !important;
   padding-top: 20px;
-}
 
+}
 
 #speakerList{
   height: 500px !important;
@@ -50,13 +50,10 @@ body {
   padding-top: 20px;
 }
 
-<<<<<<< HEAD
 
 #activityCard{
   width: 2500px !important;
 }
-=======
->>>>>>> 916b8aa3511872a72aa51224efde621374093cfc
 
 
 .react-autosuggest__container {
