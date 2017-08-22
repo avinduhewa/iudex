@@ -1,15 +1,9 @@
 body {
-  /* background-image: url('./public/bg.png'); */
+ 
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-
   overflow:visible !important;
-
-
-  background-attachment: fixed;
-
-
   
 }
 .titleText{
@@ -36,11 +30,19 @@ body {
   padding-left :30px;
 }
 
+.committee{
+  color: white;
+}
 
 #cardNotes{
   height: 450px !important;
   width: 400px !important;
   padding-top: 20px;
+}
+
+#adminvire{
+  height: 500px !important;
+  width: 1000px !important;
 }
 
 
@@ -50,13 +52,10 @@ body {
   padding-top: 20px;
 }
 
-<<<<<<< HEAD
 
 #activityCard{
   width: 2500px !important;
 }
-=======
->>>>>>> 916b8aa3511872a72aa51224efde621374093cfc
 
 
 .react-autosuggest__container {
