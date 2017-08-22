@@ -70,15 +70,7 @@ class PointsForm extends Component {
     }
     axios(options)
       .then((resp) => {
-        console.log(resp.data.data);
-        if (resp.data.data.login) {
-          window.localStorage.setItem('email', resp.data.data.user.email);
-          window.localStorage.setItem('login', resp.data.data.login);
-          window.localStorage.setItem('admin', resp.data.data.admin);
-          window.location.assign('/app');
-        } else {
-          this.setState({ error: "Incorrect email and password" })
-        }
+       console.log("succeess");
       })
       .catch(console.error)
   }

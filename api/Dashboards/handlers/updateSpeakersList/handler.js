@@ -1,7 +1,6 @@
 'use strict';
 
 const returnData = require('../../lib/return').returnData;
-const helper = require('./helper');
 const db = require('../../lib/database');
 
 const initDB = db.initDB;
@@ -14,7 +13,7 @@ module.exports.updateSpeakersList = (event, context, callback) => {
     const COMMITTEE = db.collection('Committees');
 
     COMMITTEE.findOneAndUpdate({ _id: ObjectId(data.committee) },
-      { $set: { speakersList: data.speakersList } })
+      { $set: { speakersList: data.speakerList } })
       .then(comData => {
         return returnData({ status: 200, data: comData.value }, context);
       })
