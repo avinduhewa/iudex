@@ -45,6 +45,10 @@ class SpeakerList extends Component {
     return (
 
       <div className="ui card" id="cardNotes" >
+             <h3 className="ui center aligned icon header">
+         
+          Speaker List
+        </h3>
 
         <div className="content" style={{ overflow: 'auto' }}>
 
