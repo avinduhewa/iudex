@@ -14,6 +14,14 @@ class SpeakerLIstloop extends Component {
 
   }
 
+
+
+  onCheckChange(e){
+
+    var checkValue =this.refs.checked.value;
+    this.props.checkedValueChange(checkValue);
+  }
+
   render() {
     return (
 
@@ -39,7 +47,7 @@ class SpeakerLIstloop extends Component {
                     <div className="header">{speakerList.speaker}</div>
                   
                     <div className="ui checkbox right floated " >
-                      <input type="checkbox" name="example" />
+                      <input type="checkbox" name="example" ref="checked" value={this.state.checkboxValue} onChange={this.onCheckChange.bind(this)}/>
                       <label></label>
                     </div>
                    

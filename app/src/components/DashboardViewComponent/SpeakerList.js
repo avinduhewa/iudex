@@ -10,11 +10,13 @@ class SpeakerList extends Component {
     super(props);
     this.state = {
       judgeNote: '',
+      
 
       speakerList: [],
       committee: window.localStorage.getItem('committee')
     };
     this.handleSubmitSpeaker = this.handleSubmitSpeaker.bind(this);
+    this.handelCheckValue = this.handelCheckValue.bind(this);
   }
 
   componentDidMount() {
@@ -35,6 +37,24 @@ class SpeakerList extends Component {
     array.push(newSpeaker);
     this.setState({ speakerList: array });
     this.callupdateAPI(array);
+  }
+
+  handelCheckValue(checkValue){
+
+    if(checkValue == 'on'){
+      this.setState({
+        checked : !this.state.checked,
+      });
+      this.callupdateAPI(this.state.speakerList);
+    }
+    else{
+      checkValue = false;
+    }
+
+
+    
+
+
   }
 
   callupdateAPI(array) {
@@ -79,11 +99,11 @@ class SpeakerList extends Component {
 
         <div className="content" style={{ overflow: 'auto' }}>
 
-          <SpeakerLIstloop speakerList={this.state.speakerList} />
+          <SpeakerLIstloop checkedValueChange={this.handelCheckValue}  speakerList={this.state.speakerList} />
 
         </div>
-          
-        <div className="extra content">
+
+        <div className=" content">
           <SpeakerForm onSubmitSpeaker={this.handleSubmitSpeaker} />
         </div>
 
