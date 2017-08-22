@@ -109,28 +109,28 @@ class PointsForm extends Component {
                   <option value="">Country</option>
                     {countryList}
                   </select>   */}
-                  </div>
-                  <div className="field"> 
-                  <CriteriaAuto/>      
-                  {/* <select value={this.state.criteriaSelect} onChange={this.onChange} name ="criteriaSelect" className="ui search dropdown">
+            </div>
+            <div className="field">
+              <CriteriaAuto />
+              {/* <select value={this.state.criteriaSelect} onChange={this.onChange} name ="criteriaSelect" className="ui search dropdown">
                   <option value="">Criteria</option>
                     {criteriaList}
                   </select> */}
-                  </div>
-                  <div className="field"> 
-                  <input type="number" value={this.state.poitsAssign} onChange={this.onChange} name="points" placeholder="Points"/>       
-                  </div>
-                  <div className="field"> 
-                  <button className="ui button" type="submit">Submit</button>
-                  </div>
-                </div>
-           
-           
-              </div>
-            </form>
-     
+            </div>
+            <div className="field">
+              <input type="number" value={this.state.poitsAssign} onChange={this.onChange} name="points" id="points" placeholder="Points" value="0" />
+            </div>
+            <div className="field">
+              <button className="ui button" type="submit">Submit</button>
+            </div>
+          </div>
 
-    
+
+        </div>
+      </form>
+
+
+
     );
   }
 }

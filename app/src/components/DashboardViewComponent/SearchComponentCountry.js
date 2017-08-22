@@ -1,26 +1,9 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 import Autosuggest from 'react-autosuggest';
 
 // Imagine you have a list of languages that you'd like to autosuggest.
-const languages = [
-  {
-    name: 'Srilanka',
-
-  },
-  {
-    name: 'Usa',
-
-  },
-  {
-    name: 'Yo mama',
-
-  },
-  {
-    name: 'Shit',
-
-  },
-
-];
+let languages;
 
 // Teach Autosuggest how to calculate suggestions for any given input value.
 const getSuggestions = value => {
@@ -57,6 +40,14 @@ class Example extends React.Component {
       value: '',
       suggestions: []
     };
+  }
+
+  componentDidMount() {
+    axios.get(`https://3wejisthn9.execute-api.ap-southeast-1.amazonaws.com/dev/getCommittee?committee=${'598ad84f734d1d2227f453fb'}`)
+      .then((resp) => {
+        languages = resp.data.data.countries
+      })
+      .catch(console.error)
   }
 
   onChange = (event, { newValue }) => {

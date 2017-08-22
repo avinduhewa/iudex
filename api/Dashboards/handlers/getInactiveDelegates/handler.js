@@ -7,7 +7,7 @@ const db = require('../../lib/database');
 const initDB = db.initDB;
 const ObjectId = db.objectID;
 
-module.exports.getTopDelegates = (event, context, callback) => {
+module.exports.getInactiveDelegates = (event, context, callback) => {
   const data = event.queryStringParameters;
   console.log(data);
   initDB(db => {
@@ -17,13 +17,7 @@ module.exports.getTopDelegates = (event, context, callback) => {
       .then(comData => {
         console.log(comData);
         const countryList = helper.finalizeCommitteePoints(comData);
-        console.log(countryList);
-        const delegates = countryList.sort(function (a, b) {
-          return b.totalPoints - a.totalPoints;
-        })
-        if (delegates.length > 10) delegates.length = 10;
-
-        return returnData({ status: 200, data: delegates }, context);
+        return returnData({ status: 200, data: countryList }, context);
       })
       .catch(err => returnData({ status: 402, data: err }, context));
   })
