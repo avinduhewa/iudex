@@ -37,6 +37,21 @@ class SpeakerList extends Component {
     this.callupdateAPI(array);
   }
 
+  handelCheckValue(checkValue){
+
+    if(checkValue == 'on'){
+      checkValue = true;
+    }
+    else{
+      checkValue = false;
+    }
+
+
+    callupdateAPI(this.state.speakerList);
+
+
+  }
+
   callupdateAPI(array) {
     const params = JSON.parse(JSON.stringify(this.state));
     params.speakerList = array;
@@ -79,7 +94,7 @@ class SpeakerList extends Component {
 
         <div className="content" style={{ overflow: 'auto' }}>
 
-          <SpeakerLIstloop speakerList={this.state.speakerList} />
+          <SpeakerLIstloop checkedValueChange={this.handelCheckValue}  speakerList={this.state.speakerList} />
 
         </div>
 
