@@ -32,17 +32,25 @@ class PendingSpeakers extends Component {
         <div className="card" style={{ overflow: 'auto' }}>
             <h3 className="ui center aligned icon header">
             <br/>
-            Speaker List
+           Pending Speakers
            </h3>
 
-
-          <div className="content">
-            <div className="header">Veronika Ossi</div>
-            <div className="meta">Friend</div>
-            <div className="description">
-              Veronika Ossi is a set designer living in New York who enjoys kittens, music, and partying.
-            </div>
-          </div>
+           <div className="ui  segment">
+           <div className="ui  relaxed divided list">
+             {this.state.delegates.map((item, index) => (
+               <div className="item ui  center aligned" key={index}>
+                 <div className="content">
+                   <div className="header" >{item.name}   
+                     <div className ="ui right floated">
+               
+                       </div>                  
+                     
+                     </div>
+                 </div>
+               </div>
+             ))}
+           </div>
+         </div>
         </div>
       // </div>
 

@@ -36,14 +36,14 @@ class SpeakerForm extends Component {
         return (
 
 
-            <div>
+            <div className="ui container">
                 <form className="ui form" onSubmit={this.onSubmit} >
                     <div className="ui form">
                         <div className="field">
                             <label>Speakers</label>
-                            <textarea rows="2" onChange={this.onChange} ref="text"></textarea>
+                            <input rows="2" onChange={this.onChange} ref="text"/>
                         </div>
-                        <button className="ui button" type="submit">Submit</button>
+                        <button className="ui button" type="submit" onKeyPress={this.onSubmit}>Submit</button>
                     </div>
                 </form>
             </div>
