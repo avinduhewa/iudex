@@ -6,16 +6,6 @@ class SpeakerLIstloop extends Component {
     super(props);
   }
 
-
-  toggleCheckbox(speaker) {
-    const index = this.props.speakerList.indexOf(speaker);
-    if (speaker.checked === true) {
-      this.props.speakerList[index].checked = false;
-    } else {
-      this.props.speakerList[index].checked = true;
-    }
-  }
-
   onCheckChange(speakerList, e) {
     let index;
     for (let x in this.props.speakerList) {
