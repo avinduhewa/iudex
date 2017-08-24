@@ -12,7 +12,8 @@ class DashboardViewGrid extends Component {
 
     this.state = {
       committee:"",
-      country:""
+      voter:"",
+      nominee:""
     }
 
     this.onSubmit = this.onSubmit.bind(this);
@@ -36,8 +37,25 @@ onChange() {
 onSubmit(e) {
   e.preventDefault();
   console.log(this.Committee.value);
-  
- 
+}
+
+vote(){
+  this.refs.btn.setAttribute("disabled", "disabled");
+  const options = {
+    method: 'POST',
+    url: 'https://3wejisthn9.execute-api.ap-southeast-1.amazonaws.com/dev/vote',
+    data: JSON.stringify(this.state),
+    headers: {
+      'Content-Type': 'application/json',
+      'Access-Control-Allow-Origin': '*'
+    },
+    json: true
+  }
+  axios(options)
+    .then((resp) => {
+
+    })
+    .catch(console.error)
 }
 
   render() {
