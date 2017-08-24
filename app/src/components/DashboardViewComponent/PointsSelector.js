@@ -9,7 +9,8 @@ class PointsSelector extends Component {
     super(props);
 
     this.state = {
-      points: 0
+      points: 0,
+      
     }
   }
 
@@ -24,7 +25,7 @@ class PointsSelector extends Component {
 
   render() {
     return (
-      <input type="number" value={this.state.points} onChange={this.onChange} name="points" id="points" placeholder="Points"/>
+      <input type="number" max = {this.props.maximum} value={this.state.points} onChange={this.onChange} name="points" id="points" placeholder="Points"/>
     );
   }
 }

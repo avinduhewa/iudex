@@ -12,7 +12,9 @@ class PointsForm extends Component {
     super(props);
 
     this.state = {
+      maxValue :""
     }
+    
     this.onChange = this.onChange.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
     this.updateCountrySearch = this.updateCountrySearch.bind(this);
@@ -46,7 +48,37 @@ class PointsForm extends Component {
   onChange(field, value) {
     // this.setState({ [e.target.name]: e.target.value });
     this.setState({ [field]: value });
+    this.checkCategory();
   }
+
+ checkCategory(){
+
+    switch(this.state.category ){
+      case '1':
+      this.setState({
+        maxValue: "10"
+      });
+      break;
+     
+      case '2':
+      this.setState({
+        maxValue: "50"
+      });
+      break;
+    
+      case '3':
+      this.setState({
+        maxValue: "10"
+      });
+      break;
+   
+      case '4':
+      this.setState({
+        maxValue: "100"
+      });
+    }
+
+ }
 
   onSubmit(e) {
     e.preventDefault();
@@ -92,10 +124,13 @@ class PointsForm extends Component {
               <CriteriaAuto onChange={this.onChange.bind(this)} />
             </div>
             <div className="field">
-              <PointsSelector onChange={this.onChange.bind(this)} />
+              <PointsSelector onChange={this.onChange.bind(this)} maximum={this.state.maxValue}/>
             </div>
             <div className="field">
               <button className="ui button" type="submit">Submit</button>
+              <button className="ui button" type="">Undo</button>
+             
+          
             </div>
           </div>
 
