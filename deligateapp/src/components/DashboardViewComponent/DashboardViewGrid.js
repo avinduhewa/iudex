@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import axios from 'axios';
 
 
 
@@ -12,7 +12,8 @@ class DashboardViewGrid extends Component {
 
     this.state = {
       committee:"",
-      country:""
+      voter:"",
+      nominee:""
     }
 
     this.onSubmit = this.onSubmit.bind(this);
@@ -22,22 +23,39 @@ class DashboardViewGrid extends Component {
 
 }
 onChange() {
-  const target = event.target;
+  // const target = event.target;
   
-  const committee = target.name;
-  const country = target.name;
+  // const committee = target.name;
+  // const country = target.name;
 
-  this.setState({
-    [committee]: value,
-    [country]: value
-  });
+//   this.setState({
+//     [committee]: value,
+//     [country]: value
+//   });
 }
 
 onSubmit(e) {
   e.preventDefault();
   console.log(this.Committee.value);
-  
- 
+}
+
+vote(){
+  this.refs.btn.setAttribute("disabled", "disabled");
+  const options = {
+    method: 'POST',
+    url: 'https://3wejisthn9.execute-api.ap-southeast-1.amazonaws.com/dev/vote',
+    data: JSON.stringify(this.state),
+    headers: {
+      'Content-Type': 'application/json',
+      'Access-Control-Allow-Origin': '*'
+    },
+    json: true
+  }
+  axios(options)
+    .then((resp) => {
+
+    })
+    .catch(console.error)
 }
 
   render() {
