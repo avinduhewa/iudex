@@ -12,7 +12,8 @@ class PointsForm extends Component {
     super(props);
 
     this.state = {
-      maxValue :""
+      maxValue :"",
+      undo: false
     }
     
     this.onChange = this.onChange.bind(this);
@@ -102,7 +103,31 @@ class PointsForm extends Component {
     }
     axios(options)
       .then((resp) => {
-       console.log("succeess");
+        this.setState({undo: false});
+      })
+      .catch(console.error)
+  }
+
+  undo(e) {
+    console.log(e);
+    const options = {
+      method: 'POST',
+      url: 'https://3wejisthn9.execute-api.ap-southeast-1.amazonaws.com/dev/undo',
+      data: JSON.stringify({
+        committee: window.localStorage.getItem('committee'),
+        email: window.localStorage.getItem('email'),
+        position: window.localStorage.getItem('position'),
+        name: window.localStorage.getItem('name')
+      }),
+      headers: {
+        'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*'
+      },
+      json: true
+    }
+    axios(options)
+      .then((resp) => {
+        this.setState({undo: true});
       })
       .catch(console.error)
   }
@@ -128,9 +153,7 @@ class PointsForm extends Component {
             </div>
             <div className="field">
               <button className="ui button" type="submit">Submit</button>
-              <button className="ui button" type="">Undo</button>
-             
-          
+              <button className="ui button" type="button" onClick={this.undo.bind(this)}>Undo</button>
             </div>
           </div>
 
