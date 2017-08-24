@@ -33,7 +33,7 @@ class PendingSpeakers extends Component {
 
 
 
-      <div className="card" id="cardNotes">
+      <div className="card" id="pending">
         <h3 className="ui center aligned icon header">
         
           Pending Speakers

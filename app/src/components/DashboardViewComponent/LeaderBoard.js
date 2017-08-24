@@ -32,7 +32,7 @@ class LeaderBoard extends Component {
   render() {
     return (
 
-      <div className="ui card" id="cardNotes" >
+      <div className="ui card" id="learderBoard">
       <h3 className="ui center aligned icon header">
        Leader Board
       </h3>
@@ -50,6 +50,8 @@ class LeaderBoard extends Component {
               </div>
             </div>
           ))}
+  
+ 
     
           </div>
         </div>

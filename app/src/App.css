@@ -44,6 +44,27 @@ body {
 
 }
 
+#speakerList{
+  height: 500px !important;
+  width: 400px !important;
+  padding-top: 20px;
+
+}
+
+#learderBoard{
+  height: 500px !important;
+  width: 300px !important;
+  padding-top: 20px;
+
+}
+#pending{
+  height: 500px !important;
+  width: 300px !important;
+  padding-top: 20px;
+
+}
+
+
 
 
 
