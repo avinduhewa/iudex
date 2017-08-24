@@ -6,15 +6,16 @@ const db = require('../../lib/database');
 const initDB = db.initDB;
 const ObjectId = db.objectID;
 
-module.exports.updateSpeakersList = (event, context, callback) => {
+module.exports.updateRollCall = (event, context, callback) => {
   const data = JSON.parse(event.body);
-  
+  console.log(data);
   initDB(db => {
     const COMMITTEE = db.collection('Committees');
 
     COMMITTEE.findOneAndUpdate({ _id: ObjectId(data.committee) },
-      { $set: { delegates: data.delegates } })
+      { $set: { countries: data.delegates } })
       .then(comData => {
+        console.log(comData);
         return returnData({ status: 200, data: comData.value }, context);
       })
       .catch(err => returnData({ status: 402, data: err }, context));
