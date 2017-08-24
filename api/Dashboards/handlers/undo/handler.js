@@ -8,8 +8,8 @@ const initDB = db.initDB;
 const ObjectId = db.objectID;
 
 module.exports.undo = (event, context, callback) => {
-  const data = event.queryStringParameters;
-
+  const data = JSON.parse(event.body);
+  console.log(data);
   initDB(db => {
     const COMMITTEE = db.collection('Committees');
 
@@ -23,6 +23,7 @@ module.exports.undo = (event, context, callback) => {
         );
       })
       .then(comUpdate => {
+        console.log('here');
         return returnData({ status: 200, data: { success: true, message: 'Undo Success' } }, context);
       })
       .catch(err => returnData({ status: 402, data: err }, context));
