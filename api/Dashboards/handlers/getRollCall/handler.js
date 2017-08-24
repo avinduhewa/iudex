@@ -14,17 +14,8 @@ module.exports.getRollCall = (event, context, callback) => {
 
     COMMITTEE.findOne({ _id: ObjectId(data.committee) })
       .then(comData => {
-        const normalizedCommittee = this.normalizeCommittee(comData);
-        console.log(normalizedCommittee);
         return returnData({ status: 200, data: comData.countries }, context);
       })
       .catch(err => returnData({ status: 402, data: err }, context));
   })
 };
-
-module.exports.normalizeCommittee = (comData) => {
-  for (let x in comData.countries) {
-    delete comData.countries[x].points;
-  }
-  return comData;
-}
