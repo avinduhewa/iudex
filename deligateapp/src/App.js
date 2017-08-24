@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-    <SideNavBar/>
+
     <div className ="ui container">
     <Dashboard/>
         </div>

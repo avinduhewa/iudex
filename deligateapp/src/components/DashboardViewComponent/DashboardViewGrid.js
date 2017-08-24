@@ -22,15 +22,15 @@ class DashboardViewGrid extends Component {
 
 }
 onChange() {
-  const target = event.target;
+  // const target = event.target;
   
-  const committee = target.name;
-  const country = target.name;
+  // const committee = target.name;
+  // const country = target.name;
 
-  this.setState({
-    [committee]: value,
-    [country]: value
-  });
+  // this.setState({
+  //   [committee]: value,
+  //   [country]: value
+  // });
 }
 
 onSubmit(e) {
@@ -48,7 +48,7 @@ onSubmit(e) {
 <div className="column">
   <h2 className="ui image header">
     <div className="content">
-      Enter your c
+      Vote
     </div>
   </h2>
   
