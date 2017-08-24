@@ -18,7 +18,7 @@ class DashboardViewGrid extends Component {
 
     this.state = {
       committee: "",
-      voter: "",
+      voter: "" ,
       nominee: ""
     }
 
