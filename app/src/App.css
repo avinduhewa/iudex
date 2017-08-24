@@ -44,6 +44,13 @@ body {
 
 }
 
+#speakerList{
+  height: 500px !important;
+  width: 400px !important;
+  padding-top: 20px;
+
+}
+
 
 
 

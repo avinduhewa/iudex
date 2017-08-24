@@ -32,13 +32,113 @@ class LeaderBoard extends Component {
   render() {
     return (
 
-      <div className="ui card" id="cardNotes" >
+      <div className="ui card" id="cardNotes">
       <h3 className="ui center aligned icon header">
        Leader Board
       </h3>
       <div className="content" style={{ overflow: 'auto' }}>
       <div className="ui  segment">
           <div className="ui  relaxed divided list">
+          {this.state.delegates.map((item, index) => (
+            <div className="item" key={index}>
+              <div className="content" >
+                <div className="header" >{item.name}
+                  <div className="ui right floated">
+                    {item.totalPoints}
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+          {this.state.delegates.map((item, index) => (
+            <div className="item" key={index}>
+              <div className="content" >
+                <div className="header" >{item.name}
+                  <div className="ui right floated">
+                    {item.totalPoints}
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+          {this.state.delegates.map((item, index) => (
+            <div className="item" key={index}>
+              <div className="content" >
+                <div className="header" >{item.name}
+                  <div className="ui right floated">
+                    {item.totalPoints}
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+          {this.state.delegates.map((item, index) => (
+            <div className="item" key={index}>
+              <div className="content" >
+                <div className="header" >{item.name}
+                  <div className="ui right floated">
+                    {item.totalPoints}
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+          {this.state.delegates.map((item, index) => (
+            <div className="item" key={index}>
+              <div className="content" >
+                <div className="header" >{item.name}
+                  <div className="ui right floated">
+                    {item.totalPoints}
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+          {this.state.delegates.map((item, index) => (
+            <div className="item" key={index}>
+              <div className="content" >
+                <div className="header" >{item.name}
+                  <div className="ui right floated">
+                    {item.totalPoints}
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+          {this.state.delegates.map((item, index) => (
+            <div className="item" key={index}>
+              <div className="content" >
+                <div className="header" >{item.name}
+                  <div className="ui right floated">
+                    {item.totalPoints}
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+          {this.state.delegates.map((item, index) => (
+            <div className="item" key={index}>
+              <div className="content" >
+                <div className="header" >{item.name}
+                  <div className="ui right floated">
+                    {item.totalPoints}
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+          {this.state.delegates.map((item, index) => (
+            <div className="item" key={index}>
+              <div className="content" >
+                <div className="header" >{item.name}
+                  <div className="ui right floated">
+                    {item.totalPoints}
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+
           {this.state.delegates.map((item, index) => (
             <div className="item" key={index}>
               <div className="content" >

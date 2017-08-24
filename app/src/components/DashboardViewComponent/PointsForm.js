@@ -20,8 +20,8 @@ class PointsForm extends Component {
     this.onSubmit = this.onSubmit.bind(this);
     this.updateCountrySearch = this.updateCountrySearch.bind(this);
     this._handleKeyPress = this._handleKeyPress.bind(this);
-    this.loadButton=this.loadButton.bind(this);
-    this.undoloadButton = this.undoloadButton.bind(this)
+    
+ 
   }
 
 
@@ -55,15 +55,9 @@ class PointsForm extends Component {
   }
 
 
-  loadButton(){
-    this.refs.btn.setAttribute("disabled", "disabled");
 
 
-  }
 
-  undoloadButton(){
-    this.refs.btn2.setAttribute("disabled", "disabled");
-  }
 
  checkCategory(){
 
@@ -96,6 +90,7 @@ class PointsForm extends Component {
 
   onSubmit(e) {
     e.preventDefault();
+    this.refs.btn.setAttribute("disabled", "disabled");
     const options = {
       method: 'POST',
       url: 'https://3wejisthn9.execute-api.ap-southeast-1.amazonaws.com/dev/add',
@@ -118,6 +113,7 @@ class PointsForm extends Component {
 
       .then((resp) => {
         this.setState({undo: false});
+        this.refs.btn.removeAttribute("disabled");
       })
       .catch(console.error)
   }
@@ -170,8 +166,8 @@ class PointsForm extends Component {
               <PointsSelector onChange={this.onChange.bind(this)} maximum={this.state.maxValue}/>
             </div>
             <div className="field">
-              <button className="ui button" type="submit">Submit</button>
-              <button className="ui button" type="button" onClick={this.undo.bind(this)}>Undo</button>
+              <button className="ui button" type="submit" ref="btn">Submit</button>
+              <button className="ui button" type="button" >Undo</button>
             </div>
           </div>
 
