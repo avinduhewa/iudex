@@ -10,7 +10,7 @@ class SpeakerList extends Component {
     super(props);
     this.state = {
       judgeNote: '',
-      
+
 
       speakerList: [],
       committee: window.localStorage.getItem('committee')
@@ -39,22 +39,9 @@ class SpeakerList extends Component {
     this.callupdateAPI(array);
   }
 
-  handelCheckValue(checkValue){
-
-    if(checkValue == 'on'){
-      this.setState({
-        checked : !this.state.checked,
-      });
-      this.callupdateAPI(this.state.speakerList);
-    }
-    else{
-      checkValue = false;
-    }
-
-
-    
-
-
+  handelCheckValue(speakers) {
+    this.setState({ speakerList: speakers.speakerList });
+    this.callupdateAPI(speakers.speakerList);
   }
 
   callupdateAPI(array) {
@@ -90,31 +77,17 @@ class SpeakerList extends Component {
 
   render() {
     return (
-
       <div className="ui card" id="cardNotes" >
         <h3 className="ui center aligned icon header">
-
           Speaker List
         </h3>
-
         <div className="content" style={{ overflow: 'auto' }}>
-
-          <SpeakerLIstloop checkedValueChange={this.handelCheckValue}  speakerList={this.state.speakerList} />
-
+          <SpeakerLIstloop checkedValueChange={this.handelCheckValue} speakerList={this.state.speakerList} />
         </div>
-
         <div className=" content">
           <SpeakerForm onSubmitSpeaker={this.handleSubmitSpeaker} />
         </div>
-
-
       </div>
-
-
-
-
-
-
     );
   }
 }

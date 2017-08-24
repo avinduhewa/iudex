@@ -1,77 +1,52 @@
 import React, { Component } from 'react';
 
-
-
 class SpeakerLIstloop extends Component {
-
 
   constructor(props) {
     super(props);
-
-    this.state = {
-
-    }
-
   }
 
-
-
-  onCheckChange(e){
-
-    var checkValue =this.refs.checked.value;
-    this.props.checkedValueChange(checkValue);
+  onCheckChange(speakerList, e) {
+    let index;
+    for (let x in this.props.speakerList) {
+      if (this.props.speakerList[x].id == speakerList.id) {
+        index = x;
+        break
+      }
+    }
+    const array = this.props.speakerList.slice();
+    if (array[index].checked === true) {
+      array[index].checked = false;
+    } else {
+      array[index].checked = true;
+    }
+    this.props.checkedValueChange({ speakerList: array });
   }
 
   render() {
     return (
-
-
-
       <div>
-
-
-
-
-
         <div className="ui  segment">
           <div className="ui  relaxed divided list">
-            
-
-
             {
-              this.props.speakerList.map(speakerList => {
+              this.props.speakerList.map((speakerList, index) => {
                 return (
-                  
-                  <div className="item" key={speakerList.id}>
-                  <div className="content">
-                    <div className="header">{speakerList.speaker}</div>
-                  
-                    <div className="ui checkbox right floated " >
-                      <input type="checkbox" name="example" ref="checked" value={this.state.checkboxValue} onChange={this.onCheckChange.bind(this)}/>
-                      <label></label>
+                  <div className="item" key={index}>
+                    <div className="content">
+                      <div className="header">{speakerList.speaker}</div>
+                      <div className="ui checkbox right floated " >
+                        <input type="checkbox" name={speakerList.speaker} ref="checked"
+                         checked={speakerList.checked} onChange={this.onCheckChange.bind(this, speakerList)} />
+                        <label></label>
+                      </div>
                     </div>
-                   
-
-
                   </div>
-                </div>
-
                 )
               })
             }
-
-
-
           </div>
         </div>
-
-
-
       </  div>
-
-
-
-
     );
   }
 }

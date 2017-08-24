@@ -1,21 +1,37 @@
 import React, { Component } from 'react';
-
-
+import axios from 'axios';
 
 class JudgeNotes extends Component {
   constructor(props) {
     super(props);
-    this.state = { judgeNote: '' ,
-  value :'1'
-};
+    this.state = {
+      judgeNote: '',
+      value :'1',
+      delegates: []
+    };
 
 
     // this.handleSubmit = this.handleSubmit.bind(this);
     this.handleSessionSelection = this.handleSessionSelection.bind(this);
     this.handleSessionChange = this.handleSessionChange.bind(this);
+    }
+
+  componentDidMount() {
+    axios.get(`https://3wejisthn9.execute-api.ap-southeast-1.amazonaws.com/dev/getRollCall?committee=${'598ad84f734d1d2227f453fb'}`)
+      .then((resp) => {
+        console.log(resp.data.data)
+        this.setState({
+          delegates: resp.data.data
+        })
+      })
+      .catch(console.error);
   }
 
-  
+  handleSubmit(event) {
+    alert(this.state.value);
+    event.preventDefault();
+  }
+
   handleSessionChange(e) {
     this.setState({value: e.target.value});
   }
@@ -23,14 +39,20 @@ class JudgeNotes extends Component {
   handleSessionSelection(e) {
     alert( this.state.value);
     e.preventDefault();
+
   }
 
-
-  // handleSubmit(e) {
-  //   alert(this.state.value);
-  //   e.preventDefault();
-  // }
-
+  onCheckChange(item, e) {
+    let index = this.state.delegates.indexOf(item);
+    console.log(index);
+    const array = this.state.delegates.slice();
+    if (array[index].rollcall[this.state.value - 1].checked === true) {
+      array[index].rollcall[this.state.value - 1].checked = false;
+    } else {
+      array[index].rollcall[this.state.value - 1].checked = true;
+    }
+    this.setState({delegates: array});
+  }
 
   render() {
     return (
@@ -75,49 +97,37 @@ class JudgeNotes extends Component {
               <tr>
                 <th>Country</th>
                 <th> Session</th>
-
               </tr>
             </thead>
             <tbody>
-              <tr>
+              {this.state.delegates.map((item, index) => (
+                <tr key={index}>
                 <td>
                   <h4 className="ui image header">
-
                     <div className="content">
-                      Srilanka
+                      {item.name}
                     </div>
                   </h4></td>
                 <td>
                   <div className="ui checkbox">
-                    <input type="checkbox" name="morningSession" />
+                    <input type="checkbox" ref="checked" onChange={this.onCheckChange.bind(this, item)} 
+                    checked={item.rollcall[this.state.value].checked} name={item.name} />
                     <label></label>
                   </div>
                 </td>
-
-
               </tr>
-
-
-
-
+              ))}
             </tbody>
-
           </table>
-
-
         </div>
         <div className="extra content">
           <form className="ui form" onSubmit={this.handleSessionSelection}>
             <div className="ui form">
-
               <button className="ui button" type="submit">Save</button>
             </div>
           </form>
         </div>
-
       </div>
-
-
     );
   }
 }
