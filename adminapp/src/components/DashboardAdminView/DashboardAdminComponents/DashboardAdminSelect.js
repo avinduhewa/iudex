@@ -55,7 +55,7 @@ class DashboardAdminSelect extends Component {
                       <i className=" User middle aligned icon"></i>
                       <div className="content">
                         <a className="header">Lobbying</a>
-                        <div class="description">Points</div>
+                        <div className="description">Points</div>
                       </div>
                     </div>
                     <div className="item">
