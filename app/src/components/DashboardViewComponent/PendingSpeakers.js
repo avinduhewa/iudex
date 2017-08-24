@@ -31,19 +31,14 @@ class PendingSpeakers extends Component {
     return (
 
 
-      // <div className="card">
-      //   <div className="content">
-      //     {this.state.delegates.map((item, index) => (
-      //       <div className="header" key={index}>{item.name} - {item.totalPoints}</div>
-      //     ))}
 
 
-      <div className="card" style={{ overflow: 'auto' }}>
+      <div className="card" id="cardNotes">
         <h3 className="ui center aligned icon header">
-          <br />
+        
           Pending Speakers
            </h3>
-
+           <div className="content" style={{ overflow: 'auto' }}>
         <div className="ui  segment">
           <div className="ui  relaxed divided list">
             {this.state.delegates.map((item, index) => (
@@ -58,10 +53,12 @@ class PendingSpeakers extends Component {
                 </div>
               </div>
             ))}
+            
           </div>
+          
         </div>
       </div>
-      // </div>
+      </div>
 
 
 

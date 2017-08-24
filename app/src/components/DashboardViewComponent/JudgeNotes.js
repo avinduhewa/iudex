@@ -148,6 +148,7 @@ class JudgeNotes extends Component {
                 </td>
               </tr>
               ))}
+              
             </tbody>
           </table>
         </div>
