@@ -5,8 +5,10 @@ class JudgeNotes extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      committee: window.localStorage.getItem('committee'),
       judgeNote: '',
-      value :'1',
+      value : '1',
+      trueValue : 0,
       delegates: []
     };
 
@@ -17,7 +19,7 @@ class JudgeNotes extends Component {
     }
 
   componentDidMount() {
-    axios.get(`https://3wejisthn9.execute-api.ap-southeast-1.amazonaws.com/dev/getRollCall?committee=${'598ad84f734d1d2227f453fb'}`)
+    axios.get(`https://3wejisthn9.execute-api.ap-southeast-1.amazonaws.com/dev/getRollCall?committee=${this.state.committee}`)
       .then((resp) => {
         console.log(resp.data.data)
         this.setState({
@@ -33,23 +35,50 @@ class JudgeNotes extends Component {
   }
 
   handleSessionChange(e) {
-    this.setState({value: e.target.value});
+    this.setState({
+      value: e.target.value,
+      trueValue: parseInt(e.target.value) - 1
+    });
   }
 
   handleSessionSelection(e) {
-    alert( this.state.value);
     e.preventDefault();
-
+    let array = this.state.delegates.slice();
+    array.map((item) => {
+      console.log(item);
+      item.rollcall[this.state.trueValue].timestamp = Math.floor(Date.now() / 1000); 
+    })
+    this.setState({delegates: array});
+    this.callupdateAPI();
+  }
+  
+  callupdateAPI() {
+    const options = {
+      method: 'POST',
+      url: 'https://3wejisthn9.execute-api.ap-southeast-1.amazonaws.com/dev/updateRollCall',
+      data: JSON.stringify(this.state),
+      headers: {
+        'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*'
+      },
+      json: true
+    }
+    axios(options)
+      .then((resp) => {
+        console.log(resp.data);
+        console.log("success");
+      })
+      .catch(console.error)
   }
 
   onCheckChange(item, e) {
     let index = this.state.delegates.indexOf(item);
     console.log(index);
     const array = this.state.delegates.slice();
-    if (array[index].rollcall[this.state.value - 1].checked === true) {
-      array[index].rollcall[this.state.value - 1].checked = false;
+    if (array[index].rollcall[this.state.trueValue].checked === true) {
+      array[index].rollcall[this.state.trueValue].checked = false;
     } else {
-      array[index].rollcall[this.state.value - 1].checked = true;
+      array[index].rollcall[this.state.trueValue].checked = true;
     }
     this.setState({delegates: array});
   }
@@ -113,7 +142,7 @@ class JudgeNotes extends Component {
                 <td>
                   <div className="ui checkbox">
                     <input type="checkbox" ref="checked" onChange={this.onCheckChange.bind(this, item)} 
-                    checked={item.rollcall[this.state.value].checked} name={item.name} />
+                    checked={item.rollcall[this.state.trueValue].checked} name={item.name} />
                     <label></label>
                   </div>
                 </td>

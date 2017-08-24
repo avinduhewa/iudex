@@ -6,11 +6,12 @@ class LeaderBoard extends Component {
     super();
 
     this.state = {
-      delegates: []
+      delegates: [],
+      committee: window.localStorage.getItem('committee')
     }
   }
   componentDidMount() {
-    axios.get(`https://3wejisthn9.execute-api.ap-southeast-1.amazonaws.com/dev/getTop?committee=${'598ad84f734d1d2227f453fb'}`)
+    axios.get(`https://3wejisthn9.execute-api.ap-southeast-1.amazonaws.com/dev/getTop?committee=${this.state.committee}`)
       .then((resp) => {
         this.setState({
           delegates: resp.data.data
@@ -18,7 +19,7 @@ class LeaderBoard extends Component {
       })
       .catch(console.error);
     setInterval(() => {
-      axios.get(`https://3wejisthn9.execute-api.ap-southeast-1.amazonaws.com/dev/getTop?committee=${'598ad84f734d1d2227f453fb'}`)
+      axios.get(`https://3wejisthn9.execute-api.ap-southeast-1.amazonaws.com/dev/getTop?committee=${this.state.committee}`)
         .then((resp) => {
           this.setState({
             delegates: resp.data.data
