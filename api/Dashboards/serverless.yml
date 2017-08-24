@@ -115,3 +115,12 @@ functions:
          path: attendance
          method: POST
          cors: true
+
+  vote:
+    handler: handlers/vote/handler.vote
+    name: vote
+    events:
+      - http:
+         path: vote
+         method: POST
+         cors: true

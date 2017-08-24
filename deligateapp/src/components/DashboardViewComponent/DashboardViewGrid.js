@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import axios from 'axios';
 
 
 
@@ -22,15 +22,15 @@ class DashboardViewGrid extends Component {
 
 }
 onChange() {
-  const target = event.target;
+  // const target = event.target;
   
-  const committee = target.name;
-  const country = target.name;
+  // const committee = target.name;
+  // const country = target.name;
 
-  this.setState({
-    [committee]: value,
-    [country]: value
-  });
+//   this.setState({
+//     [committee]: value,
+//     [country]: value
+//   });
 }
 
 onSubmit(e) {
