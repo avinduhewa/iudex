@@ -1,14 +1,27 @@
 import React, { Component } from 'react';
-
-
+import axios from 'axios';
 
 class JudgeNotes extends Component {
   constructor(props) {
     super(props);
-    this.state = { judgeNote: '' };
+    this.state = {
+      judgeNote: '',
+      delegates: []
+    };
 
 
     this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  componentDidMount() {
+    axios.get(`https://3wejisthn9.execute-api.ap-southeast-1.amazonaws.com/dev/getRollCall?committee=${'598ad84f734d1d2227f453fb'}`)
+      .then((resp) => {
+        console.log(resp.data.data)
+        this.setState({
+          delegates: resp.data.data
+        })
+      })
+      .catch(console.error);
   }
 
   handleSubmit(event) {
@@ -23,9 +36,9 @@ class JudgeNotes extends Component {
 
 
       <div className="ui card" id="cardNotes" >
-           <h3 className="ui invert center aligned icon header">
-           
-            Role call
+        <h3 className="ui invert center aligned icon header">
+
+          Role call
            </h3>
 
 
@@ -88,7 +101,7 @@ class JudgeNotes extends Component {
 
 
             </tbody>
-      
+
           </table>
 
 
