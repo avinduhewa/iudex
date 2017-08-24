@@ -9,12 +9,13 @@ const ObjectId = db.objectID;
 
 module.exports.getOverallPoints = (event, context, callback) => {
   const data = event.queryStringParameters;
-
+  console.log(data);
   initDB(db => {
     const COMMITTEE = db.collection('Committees');
 
     COMMITTEE.findOne({ _id: ObjectId(data.committee) })
       .then(comData => {
+        console.log(comData);
         const countryList = helper.finalizeCommitteePoints(comData);
         const delegates = countryList.sort(function (a, b) {
           return b.totalPoints - a.totalPoints;
