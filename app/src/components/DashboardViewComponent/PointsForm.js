@@ -19,6 +19,8 @@ class PointsForm extends Component {
     this.onSubmit = this.onSubmit.bind(this);
     this.updateCountrySearch = this.updateCountrySearch.bind(this);
     this._handleKeyPress = this._handleKeyPress.bind(this);
+    this.loadButton=this.loadButton.bind(this);
+    this.undoloadButton = this.undoloadButton.bind(this)
   }
 
 
@@ -49,6 +51,17 @@ class PointsForm extends Component {
     // this.setState({ [e.target.name]: e.target.value });
     this.setState({ [field]: value });
     this.checkCategory();
+  }
+
+
+  loadButton(){
+    this.refs.btn.setAttribute("disabled", "disabled");
+
+
+  }
+
+  undoloadButton(){
+    this.refs.btn2.setAttribute("disabled", "disabled");
   }
 
  checkCategory(){
@@ -101,10 +114,16 @@ class PointsForm extends Component {
       json: true
     }
     axios(options)
+
       .then((resp) => {
        console.log("succeess");
+       this.refs.btn.removeAttribute("disabled");
       })
       .catch(console.error)
+
+      
+     
+     
   }
 
 
@@ -127,8 +146,9 @@ class PointsForm extends Component {
               <PointsSelector onChange={this.onChange.bind(this)} maximum={this.state.maxValue}/>
             </div>
             <div className="field">
-              <button className="ui button" type="submit">Submit</button>
-              <button className="ui button" type="">Undo</button>
+              <button className="ui  button" ref="btn" type="submit" onClick={this.loadButton} id="sub"> Submit</button>
+             
+              <button className="ui button" type="button" ref="btn2" onClick={this.undoloadButton}>Undo</button>
              
           
             </div>
