@@ -17,7 +17,7 @@ ReactDOM.render((
     <div>
       <Route exact path="/" component={Login} />
       <Route path="/app" component={App} />
-      <Route path="/admin" component={DashAdmin} />
+     
     </div>
   </BrowserRouter>
 ), document.getElementById('root'));

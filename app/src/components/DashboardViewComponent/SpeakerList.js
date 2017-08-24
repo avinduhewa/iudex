@@ -77,7 +77,7 @@ class SpeakerList extends Component {
 
   render() {
     return (
-      <div className="ui card" id="cardNotes" >
+      <div className="ui card" id="speakerList" >
         <h3 className="ui center aligned icon header">
           Speaker List
         </h3>
