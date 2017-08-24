@@ -46,8 +46,10 @@ class JudgeNotes extends Component {
 
         <div className="content" style={{ overflow: 'auto' }}>
 
+      
+
           <form onSubmit={this.handleSessionSelection}>
-            <select className="ui dropdown" value={this.state.value} onChange={this.handleSessionChange}>
+            <select className="ui fluid  dropdown" value={this.state.value} onChange={this.handleSessionChange}>
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
