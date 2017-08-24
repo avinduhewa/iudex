@@ -114,11 +114,13 @@ class PointsForm extends Component {
       .then((resp) => {
         this.setState({undo: false});
         this.refs.btn.removeAttribute("disabled");
+        this.refs.btn2.removeAttribute("disabled");
       })
       .catch(console.error)
   }
 
   undo(e) {
+    this.refs.btn2.setAttribute("disabled", "disabled");
     console.log(e);
     const options = {
       method: 'POST',
@@ -167,7 +169,7 @@ class PointsForm extends Component {
             </div>
             <div className="field">
               <button className="ui button" type="submit" ref="btn">Submit</button>
-              <button className="ui button" type="button" >Undo</button>
+              <button className="ui button" type="button" ref="btn2" onClick={this.undo.bind(this)}>Undo</button>
             </div>
           </div>
 

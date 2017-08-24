@@ -51,6 +51,20 @@ body {
 
 }
 
+#learderBoard{
+  height: 500px !important;
+  width: 300px !important;
+  padding-top: 20px;
+
+}
+#pending{
+  height: 500px !important;
+  width: 300px !important;
+  padding-top: 20px;
+
+}
+
+
 
 
 

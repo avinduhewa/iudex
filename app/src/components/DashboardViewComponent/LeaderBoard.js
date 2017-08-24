@@ -32,7 +32,7 @@ class LeaderBoard extends Component {
   render() {
     return (
 
-      <div className="ui card" id="cardNotes">
+      <div className="ui card" id="learderBoard">
       <h3 className="ui center aligned icon header">
        Leader Board
       </h3>
@@ -50,106 +50,8 @@ class LeaderBoard extends Component {
               </div>
             </div>
           ))}
-          {this.state.delegates.map((item, index) => (
-            <div className="item" key={index}>
-              <div className="content" >
-                <div className="header" >{item.name}
-                  <div className="ui right floated">
-                    {item.totalPoints}
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-          {this.state.delegates.map((item, index) => (
-            <div className="item" key={index}>
-              <div className="content" >
-                <div className="header" >{item.name}
-                  <div className="ui right floated">
-                    {item.totalPoints}
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-          {this.state.delegates.map((item, index) => (
-            <div className="item" key={index}>
-              <div className="content" >
-                <div className="header" >{item.name}
-                  <div className="ui right floated">
-                    {item.totalPoints}
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-          {this.state.delegates.map((item, index) => (
-            <div className="item" key={index}>
-              <div className="content" >
-                <div className="header" >{item.name}
-                  <div className="ui right floated">
-                    {item.totalPoints}
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-          {this.state.delegates.map((item, index) => (
-            <div className="item" key={index}>
-              <div className="content" >
-                <div className="header" >{item.name}
-                  <div className="ui right floated">
-                    {item.totalPoints}
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-          {this.state.delegates.map((item, index) => (
-            <div className="item" key={index}>
-              <div className="content" >
-                <div className="header" >{item.name}
-                  <div className="ui right floated">
-                    {item.totalPoints}
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-          {this.state.delegates.map((item, index) => (
-            <div className="item" key={index}>
-              <div className="content" >
-                <div className="header" >{item.name}
-                  <div className="ui right floated">
-                    {item.totalPoints}
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-          {this.state.delegates.map((item, index) => (
-            <div className="item" key={index}>
-              <div className="content" >
-                <div className="header" >{item.name}
-                  <div className="ui right floated">
-                    {item.totalPoints}
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-
-          {this.state.delegates.map((item, index) => (
-            <div className="item" key={index}>
-              <div className="content" >
-                <div className="header" >{item.name}
-                  <div className="ui right floated">
-                    {item.totalPoints}
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
+  
+ 
     
           </div>
         </div>
