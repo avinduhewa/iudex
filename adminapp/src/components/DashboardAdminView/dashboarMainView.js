@@ -18,7 +18,17 @@ class dashboarSelectView extends Component {
     }
     this.getTotalPoints();
     this.getActivityLog();
+    this.handleSessionChange = this.handleSessionChange.bind(this);
   }
+
+  handleSessionChange(e) {
+    this.setState({
+      selectedCommittee: e.target.value,
+    
+    });
+  }
+
+
   getTotalPoints() {
     console.log(this.state.selectedCommittee);
     axios.get(`https://3wejisthn9.execute-api.ap-southeast-1.amazonaws.com/dev/getOverallPoints?committee=${this.state.selectedCommittee}`)
@@ -34,11 +44,15 @@ class dashboarSelectView extends Component {
         axios.get(`https://3wejisthn9.execute-api.ap-southeast-1.amazonaws.com/dev/getOverallPoints?committee=${this.state.selectedCommittee}`)
           .then((resp) => {
             this.setState({
+              
               totalPoints: resp.data.data
+               
             })
+            this.getCommitteList();
+            this.getActivityLog();
           })
           .catch(console.error)
-      }, 5000)
+      }, 2000)
   }
 
 
@@ -47,7 +61,8 @@ class dashboarSelectView extends Component {
       .then((resp) => {
         console.log('getActivityLog', resp.data.data);
         this.setState({
-          activityLog: resp.data.data
+          activityLog: resp.data.data,
+        
         })
       })
       .catch(console.error);
