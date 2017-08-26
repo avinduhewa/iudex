@@ -13,23 +13,34 @@ class dashboarSelectView extends Component {
       activityLog: [],
       totalPoints: [],
       committees: [],
-      selectedCommittee: '598ad84f734d1d2227f453fb'
+      selectedCommittee: '599c377c734d1d647d03819e',
+      points:[]
     }
-
     this.getTotalPoints();
     this.getActivityLog();
   }
-
   getTotalPoints() {
+    console.log(this.state.selectedCommittee);
     axios.get(`https://3wejisthn9.execute-api.ap-southeast-1.amazonaws.com/dev/getOverallPoints?committee=${this.state.selectedCommittee}`)
       .then((resp) => {
         console.log('totalPoints', resp.data.data);
         this.setState({
-          totalPoints: resp.data.data
+       totalPoints: resp.data.data,
+       
         })
       })
       .catch(console.error);
+      setInterval(() => {
+        axios.get(`https://3wejisthn9.execute-api.ap-southeast-1.amazonaws.com/dev/getOverallPoints?committee=${this.state.selectedCommittee}`)
+          .then((resp) => {
+            this.setState({
+              totalPoints: resp.data.data
+            })
+          })
+          .catch(console.error)
+      }, 5000)
   }
+
 
   getActivityLog() {
     axios.get(`https://3wejisthn9.execute-api.ap-southeast-1.amazonaws.com/dev/getActivityLog?committee=${this.state.selectedCommittee}`)
@@ -46,7 +57,7 @@ class dashboarSelectView extends Component {
     const array = [
       {
         Name: 'General Assembly',
-        Value: '598ad84f734d1d2227f453fb'
+        Value: '599c386d734d1d647d038249'
       }
     ]
     this.setState({ committees: array });
@@ -77,7 +88,16 @@ class dashboarSelectView extends Component {
           <div className="ui grid">
 
             <div className="eight wide column">
-              <SelectView />
+              <div className="ui row ">
+                <div className="ui card" id="cardNotes">
+                  <div className="content" style={{ overflow: 'auto' }}>
+                    <div className="ui  segment">
+
+                      <SelectView points={this.state.totalPoints}/>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div className="eight wide column">
               <div className="ui row ">
@@ -88,43 +108,44 @@ class dashboarSelectView extends Component {
                   <div className="content" style={{ overflow: 'auto' }}>
                     <div className="ui  segment">
 
-                    {this.state.activityLog.map((activity) => (
+                      {this.state.activityLog.map((activity) => (
 
-                      <div className="ui  relaxed divided list">
-                        <h3> <b>Chair Person - </b>SBitch ass nigga </h3>  <br />
-                        <table className="ui very basic collapsing celled table">
-                          <thead>
-                            <tr><th>Action</th>
-                              <th>Category</th>
-                              <th>Points</th>
-                              <th>Deligate</th>
-                            </tr></thead>
-                          <tbody>
-                            <tr>
-                              <td>
-                                <h4 className="ui image header">
-                                  <img src="/images/avatar2/small/lena.png" className="ui mini rounded image" />
-                                  <div className="content">
-                                    Undo
-            <div className="sub header">Time Stamp
-          </div>
-                                  </div>
-                                </h4></td>
-                              <td>
-                                22
-                    </td>
-                              <td>
-                                22
-                     </td>
-                              <td>
-                                F -tard
-                    </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    ))}
-            
+                        <div className="ui  relaxed divided list">
+                          <h3> <b>Chair Person - </b>{activity.chair} </h3>  <br />
+                          <table className="ui very basic collapsing celled table">
+                            <thead>
+                              <tr><th>Action</th>
+                                <th>Category</th>
+                                <th>Points</th>
+                                <th>Deligate</th>
+                              </tr></thead>
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <h4 className="ui image header">
+                                    <img src="/images/avatar2/small/lena.png" className="ui mini rounded image" />
+                                    <div className="content">
+                                      {activity.type}
+
+                                      <div className="sub header">{activity.timestamp}
+                                      </div>
+                                    </div>
+                                  </h4></td>
+                                <td>
+                                  {activity.category}
+                                </td>
+                                <td>
+                                  {activity.points}
+                                </td>
+                                <td>
+                                  {activity.country}
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      ))}
+
                     </div>
                   </div>
 
