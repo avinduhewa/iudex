@@ -6,11 +6,12 @@ class PendingSpeakers extends Component {
     super();
 
     this.state = {
+      committee: window.localStorage.getItem('committee'),
       delegates: []
     }
   }
   componentDidMount() {
-    axios.get(`https://3wejisthn9.execute-api.ap-southeast-1.amazonaws.com/dev/getInactiveDelegates?committee=${'598ad84f734d1d2227f453fb'}`)
+    axios.get(`https://3wejisthn9.execute-api.ap-southeast-1.amazonaws.com/dev/getInactiveDelegates?committee=${this.state.committee}`)
       .then((resp) => {
         this.setState({
           delegates: resp.data.data
@@ -18,7 +19,7 @@ class PendingSpeakers extends Component {
       })
       .catch(console.error)
     setInterval(() => {
-      axios.get(`https://3wejisthn9.execute-api.ap-southeast-1.amazonaws.com/dev/getInactiveDelegates?committee=${'598ad84f734d1d2227f453fb'}`)
+      axios.get(`https://3wejisthn9.execute-api.ap-southeast-1.amazonaws.com/dev/getInactiveDelegates?committee=${this.state.committee}`)
         .then((resp) => {
           this.setState({
             delegates: resp.data.data
