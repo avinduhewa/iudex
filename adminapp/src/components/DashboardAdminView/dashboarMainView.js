@@ -14,7 +14,7 @@ class dashboarSelectView extends Component {
       totalPoints: [],
       committees: [],
       selectedCommittee: '599c377c734d1d647d03819e',
-      points:[]
+      points: []
     }
     this.getTotalPoints();
     this.getActivityLog();
@@ -24,7 +24,7 @@ class dashboarSelectView extends Component {
   handleSessionChange(e) {
     this.setState({
       selectedCommittee: e.target.value,
-    
+
     });
   }
 
@@ -35,24 +35,24 @@ class dashboarSelectView extends Component {
       .then((resp) => {
         console.log('totalPoints', resp.data.data);
         this.setState({
-       totalPoints: resp.data.data,
-       
+          totalPoints: resp.data.data,
+
         })
       })
       .catch(console.error);
-      setInterval(() => {
-        axios.get(`https://3wejisthn9.execute-api.ap-southeast-1.amazonaws.com/dev/getOverallPoints?committee=${this.state.selectedCommittee}`)
-          .then((resp) => {
-            this.setState({
-              
-              totalPoints: resp.data.data
-               
-            })
-            this.getCommitteList();
-            this.getActivityLog();
+    setInterval(() => {
+      axios.get(`https://3wejisthn9.execute-api.ap-southeast-1.amazonaws.com/dev/getOverallPoints?committee=${this.state.selectedCommittee}`)
+        .then((resp) => {
+          this.setState({
+
+            totalPoints: resp.data.data
+
           })
-          .catch(console.error)
-      }, 2000)
+          this.getCommitteList();
+          this.getActivityLog();
+        })
+        .catch(console.error)
+    }, 2000)
   }
 
 
@@ -62,7 +62,7 @@ class dashboarSelectView extends Component {
         console.log('getActivityLog', resp.data.data);
         this.setState({
           activityLog: resp.data.data,
-        
+
         })
       })
       .catch(console.error);
@@ -103,13 +103,14 @@ class dashboarSelectView extends Component {
           <div className="ui grid">
 
             <div className="eight wide column">
+
               <div className="ui row ">
                 <div className="ui card" id="cardNotes">
                   <div className="content" style={{ overflow: 'auto' }}>
-                    <div className="ui  segment">
+                  
 
-                      <SelectView points={this.state.totalPoints}/>
-                    </div>
+                      <SelectView points={this.state.totalPoints} />
+                    
                   </div>
                 </div>
               </div>
@@ -123,58 +124,46 @@ class dashboarSelectView extends Component {
                   <div className="content" style={{ overflow: 'auto' }}>
                     <div className="ui  segment">
 
-                      {this.state.activityLog.map((activity) => (
 
-                        <div className="ui  relaxed divided list">
-                          <h3> <b>Chair Person - </b>{activity.chair} </h3>  <br />
-                          <table className="ui very basic collapsing celled table">
-                            <thead>
-                              <tr><th>Action</th>
-                                <th>Category</th>
-                                <th>Points</th>
-                                <th>Deligate</th>
-                              </tr></thead>
-                            <tbody>
-                              <tr>
-                                <td>
-                                  <h4 className="ui image header">
-                                    <img src="/images/avatar2/small/lena.png" className="ui mini rounded image" />
-                                    <div className="content">
-                                      {activity.type}
+                     
 
-                                      <div className="sub header">{activity.timestamp}
-                                      </div>
-                                    </div>
-                                  </h4></td>
-                                <td>
-                                  {activity.category}
-                                </td>
-                                <td>
-                                  {activity.points}
-                                </td>
-                                <td>
-                                  {activity.country}
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      ))}
 
+                        {this.state.activityLog.map((activity) => (
+
+                          <div className="ui feed">
+                          <div className="event">
+                            <div className="label">
+                              {/* <img src="/images/avatar/small/jenny.jpg"/> */}
+                            </div>
+                              <div className="content">
+                                <div className="date">
+                                {activity.timestamp}
+                              </div>
+                                <div className="summary">
+                                <a> {activity.chair}</a> <a>{activity.type} {activity.points}</a> points to  <a> {activity.country}</a> for {activity.category}
+                                {/* <div className="ui divider"></div> */}
+                               </div>
+                              </div>
+                            </div>
+                           
+                          </div>
+                          
+                        ))}
+
+                      </div>
                     </div>
+
                   </div>
-
                 </div>
-              </div>
 
+              </div>
             </div>
+
+            <br /><br />
           </div>
 
-          <br /><br />
         </div>
-
-      </div>
-    );
+        );
   }
 }
 

@@ -41,11 +41,11 @@ class DashboardAdminSelect extends Component {
     return (
 
 
-      <div className="ui raised segment">
+      <div >
        
          {this.props.points.map((tolPoints) => (
         <div className="ui collumn" onClick={this.accordion}>   
-                    
+                   
           <button className="accordion" >{tolPoints.name}</button>
           <div className="panel">
 
@@ -53,6 +53,7 @@ class DashboardAdminSelect extends Component {
               <div className="item">
                 <i className="large github middle aligned icon"></i>
                 <div className="content">
+                <br/>
                   <a className="header">Deligate Name</a>
                   <div className="description">Deligate email</div>
                   <div className="description">Deligate more info</div>
