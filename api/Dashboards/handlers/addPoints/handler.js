@@ -9,6 +9,9 @@ const ObjectId = db.objectID;
 module.exports.addPoints = (event, context, callback) => {
 
   const data = JSON.parse(event.body);
+  if(data.points === null || parseInt(data.points) == "NaN") {
+    data.points = 0;  
+  }
   data.points = parseInt(data.points);
   if (data.category == '1') {
     data.category = "debating";
@@ -32,7 +35,8 @@ module.exports.addPoints = (event, context, callback) => {
             console.log(data.country === comData.countries[i].name, data.country == comData.countries[i].name);
             if (data.country === comData.countries[i].name) {
               console.log(data.category);
-              if (data.category === 'fps' && comData.countries[i].points[data.position][data.category] > -1) {
+              
+              if (data.category === 'fps' && comData.countries[i].points[data.position][data.category] > 0) {
                 return returnData({ status: 200, data: "User has already awarded points for FPS" }, context);
               }
               if (data.category == 'debating') {
