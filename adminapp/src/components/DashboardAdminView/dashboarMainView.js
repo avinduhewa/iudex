@@ -35,7 +35,9 @@ class dashboarSelectView extends Component {
       .then((resp) => {
         console.log('totalPoints', resp.data.data);
         this.setState({
-          totalPoints: resp.data.data,
+          totalPoints: resp.data.data.delegates,
+          chairs : resp.data.data.chairs
+
 
         })
       })
@@ -45,7 +47,8 @@ class dashboarSelectView extends Component {
         .then((resp) => {
           this.setState({
 
-            totalPoints: resp.data.data
+            totalPoints: resp.data.data.delegates,
+            chairs : resp.data.data.chairs
 
           })
           this.getCommitteList();
@@ -109,7 +112,7 @@ class dashboarSelectView extends Component {
                   <div className="content" style={{ overflow: 'auto' }}>
                   
 
-                      <SelectView points={this.state.totalPoints} />
+                      <SelectView points={this.state.totalPoints} chairs={this.state.chairs} />
                     
                   </div>
                 </div>
@@ -140,7 +143,7 @@ class dashboarSelectView extends Component {
                                 {activity.timestamp}
                               </div>
                                 <div className="summary">
-                                <a> {activity.chair}</a> <a>{activity.type} {activity.points}</a> points to  <a> {activity.country}</a> for {activity.category}
+                                <a> {activity.chair}</a> <a>{activity.type} {activity.points}</a> points to  <a> {activity.country}</a> for <a>{activity.category}</a>
                                 {/* <div className="ui divider"></div> */}
                                </div>
                               </div>
