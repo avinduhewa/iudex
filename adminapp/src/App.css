@@ -1,9 +1,17 @@
 body {
+  background-image: url('./bg.png');
+  background-position: center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
  
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  
+
   overflow:visible !important;
+
+
+  background-attachment: fixed;
+  
+
   
 }
 .titleText{
@@ -35,8 +43,8 @@ body {
 }
 
 #cardNotes{
-  height: 450px !important;
-  width: 400px !important;
+  height: 500px !important;
+  width: 600px !important;
   padding-top: 20px;
 }
 
