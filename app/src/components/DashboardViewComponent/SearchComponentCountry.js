@@ -26,6 +26,7 @@ class Example extends React.Component {
     super();
 
     this.state = {
+      committee: window.localStorage.getItem('committee'),
       value: '',
       suggestions: []
     };
@@ -33,7 +34,7 @@ class Example extends React.Component {
   }
 
   componentDidMount() {
-    axios.get(`https://3wejisthn9.execute-api.ap-southeast-1.amazonaws.com/dev/getCommittee?committee=${'598ad84f734d1d2227f453fb'}`)
+    axios.get(`https://3wejisthn9.execute-api.ap-southeast-1.amazonaws.com/dev/getCommittee?committee=${this.state.committee}`)
       .then((resp) => {
         languages = resp.data.data.countries
       })
