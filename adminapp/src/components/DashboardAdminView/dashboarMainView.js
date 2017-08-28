@@ -18,12 +18,26 @@ class dashboarSelectView extends Component {
     }
     this.getTotalPoints();
     this.getActivityLog();
+    this.changeEpoch();
     this.handleSessionChange = this.handleSessionChange.bind(this);
   }
 
+  changeEpoch(){
+    
+    var d = new Date(this.state.activityLog.timestamp); 
+   
+console.log(this.state.activityLog.timestamp);
+  }
+
   handleSessionChange(e) {
+    var date = new Date();
+    date.setTime(this.state.activityLog.timestamp);
+    console.log(date),
     this.setState({
-      selectedCommittee: e.target.value,
+      
+     
+     
+
 
     });
   }
@@ -53,6 +67,7 @@ class dashboarSelectView extends Component {
           })
           this.getCommitteList();
           this.getActivityLog();
+          this.handleSessionChange();
         })
         .catch(console.error)
     }, 2000)

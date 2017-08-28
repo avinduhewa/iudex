@@ -1,0 +1,3016 @@
+{
+    "_id": {
+        "$oid": "599c386d734d1d647d038249"
+    },
+    "name": "United Nations Security Council (SC)",
+    "desc": "",
+    "admins": [
+        "saritha.irugal@gmail.com",
+        "pramukkd@gmail.com"
+    ],
+    "chairs": [
+        "Saritha",
+        "Pramuk"
+    ],
+    "logs": [
+        {
+            "timestamp": 1503770852,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Ukraine",
+            "category": "debating",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770845,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United States",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770828,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Italy",
+            "category": "debating",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770821,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "China",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770806,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Russian Federation",
+            "category": "debating",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770798,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "France",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770566,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Senagal",
+            "category": "debating",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770524,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Bolivia",
+            "category": "debating",
+            "points": 9,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770520,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Bolivia",
+            "category": "debating",
+            "points": 6,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770517,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Bolivia",
+            "category": "debating",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770502,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Bolivia",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770497,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Bolivia",
+            "category": "debating",
+            "points": 6,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770494,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Bolivia",
+            "category": "debating",
+            "points": 6,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770346,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Sweden",
+            "category": "debating",
+            "points": 9,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770332,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Sweden",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770327,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Sweden",
+            "category": "debating",
+            "points": 6,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770307,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Sweden",
+            "category": "protocol",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770287,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Sweden",
+            "category": "debating",
+            "points": 9,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770281,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Sweden",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770180,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United States",
+            "category": "debating",
+            "points": 9,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770177,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United States",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770173,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United States",
+            "category": "debating",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770169,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United States",
+            "category": "debating",
+            "points": 6,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770160,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United States",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770156,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United States",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770035,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "China",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770028,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "China",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770022,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "China",
+            "category": "debating",
+            "points": 6,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770017,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "China",
+            "category": "debating",
+            "points": 6,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770011,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "China",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503769989,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United Kingdom",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503769982,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United Kingdom",
+            "category": "debating",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503769977,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United Kingdom",
+            "category": "debating",
+            "points": 5,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503769966,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United Kingdom",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503769926,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Russian Federation",
+            "category": "debating",
+            "points": 6,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503769923,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Russian Federation",
+            "category": "debating",
+            "points": 5,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503769909,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Russian Federation",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503769891,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "France",
+            "category": "debating",
+            "points": 6,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503769659,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "France",
+            "category": "debating",
+            "points": 5,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503769572,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United Kingdom",
+            "category": "debating",
+            "points": 6,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503769559,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Russian Federation",
+            "category": "debating",
+            "points": 5,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503769530,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "France",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503768403,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "France",
+            "category": "debating",
+            "points": 0,
+            "type": "undo"
+        },
+        {
+            "timestamp": 1503767932,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "China",
+            "category": "fps",
+            "points": 75,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503767937,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "China",
+            "category": "fps",
+            "points": 75,
+            "type": "undo"
+        },
+        {
+            "timestamp": 1503768262,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "China",
+            "category": "fps",
+            "points": 79,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503768273,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Sweden",
+            "category": "fps",
+            "points": 77,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503768286,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "France",
+            "category": "fps",
+            "points": 68,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503768401,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "France",
+            "category": "debating",
+            "points": 0,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770861,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Ukraine",
+            "category": "debating",
+            "points": 7,
+            "type": "undo"
+        },
+        {
+            "timestamp": 1503770881,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Ukraine",
+            "category": "debating",
+            "points": 6,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770901,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Sweden",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770909,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Bolivia",
+            "category": "debating",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770947,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Senagal",
+            "category": "debating",
+            "points": 6,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770954,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Ethiopia",
+            "category": "debating",
+            "points": 6,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770960,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Egypt",
+            "category": "debating",
+            "points": 6,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503770985,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "France",
+            "category": "debating",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771011,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Russian Federation",
+            "category": "debating",
+            "points": 6,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771017,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Russian Federation",
+            "category": "debating",
+            "points": 5,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771020,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Russian Federation",
+            "category": "debating",
+            "points": 4,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771030,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Russian Federation",
+            "category": "debating",
+            "points": 6,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771035,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Russian Federation",
+            "category": "debating",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771038,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Russian Federation",
+            "category": "debating",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771043,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Russian Federation",
+            "category": "debating",
+            "points": 5,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771058,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United Kingdom",
+            "category": "debating",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771062,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United Kingdom",
+            "category": "debating",
+            "points": 4,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771066,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United Kingdom",
+            "category": "debating",
+            "points": 6,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771071,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United Kingdom",
+            "category": "debating",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771074,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United Kingdom",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771094,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "China",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771102,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "China",
+            "category": "debating",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771109,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "China",
+            "category": "debating",
+            "points": 6,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771120,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "China",
+            "category": "protocol",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771137,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "China",
+            "category": "debating",
+            "points": 9,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771152,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "China",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771159,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "China",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771167,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "China",
+            "category": "protocol",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771181,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "China",
+            "category": "protocol",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771190,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "China",
+            "category": "debating",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771193,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "China",
+            "category": "debating",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771209,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "China",
+            "category": "debating",
+            "points": 9,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771214,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "China",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771247,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "China",
+            "category": "lobbying",
+            "points": 36,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771262,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "China",
+            "category": "lobbying",
+            "points": 41,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771291,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United States",
+            "category": "debating",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771295,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United States",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771302,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United States",
+            "category": "debating",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771308,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United States",
+            "category": "debating",
+            "points": 9,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771320,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United States",
+            "category": "protocol",
+            "points": 9,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771327,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United States",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771339,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United States",
+            "category": "debating",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771353,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United States",
+            "category": "protocol",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771360,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United States",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771363,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United States",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771369,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United States",
+            "category": "debating",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771378,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United States",
+            "category": "debating",
+            "points": 9,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771402,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United States",
+            "category": "protocol",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771461,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Sweden",
+            "category": "protocol",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771467,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Sweden",
+            "category": "debating",
+            "points": 6,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771471,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Sweden",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771479,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Sweden",
+            "category": "protocol",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771487,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Sweden",
+            "category": "debating",
+            "points": 9,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771500,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Sweden",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771507,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Sweden",
+            "category": "protocol",
+            "points": 9,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771516,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Sweden",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771649,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Bolivia",
+            "category": "debating",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771653,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Bolivia",
+            "category": "debating",
+            "points": 6,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771661,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Bolivia",
+            "category": "debating",
+            "points": 5,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771666,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Bolivia",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771674,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Bolivia",
+            "category": "debating",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771679,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Bolivia",
+            "category": "debating",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771682,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Bolivia",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771685,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Bolivia",
+            "category": "debating",
+            "points": 6,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771695,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Bolivia",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771701,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Bolivia",
+            "category": "debating",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771704,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Bolivia",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771727,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Senagal",
+            "category": "debating",
+            "points": 6,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771731,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Senagal",
+            "category": "debating",
+            "points": 5,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771775,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United States",
+            "category": "lobbying",
+            "points": 41,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771788,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United States",
+            "category": "lobbying",
+            "points": 34,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771810,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Sweden",
+            "category": "lobbying",
+            "points": 45,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771817,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Sweden",
+            "category": "lobbying",
+            "points": 40,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771844,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Bolivia",
+            "category": "lobbying",
+            "points": 25,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771853,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Bolivia",
+            "category": "lobbying",
+            "points": 20,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503771865,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Bolivia",
+            "category": "lobbying",
+            "points": 32,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803660,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United States",
+            "category": "lobbying",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803678,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "China",
+            "category": "lobbying",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803735,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United Kingdom",
+            "category": "debating",
+            "points": 4,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803798,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Bolivia",
+            "category": "debating",
+            "points": 9,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803848,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "France",
+            "category": "debating",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503804146,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Bolivia",
+            "category": "debating",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503804263,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "China",
+            "category": "lobbying",
+            "points": 9,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503804277,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "China",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503804342,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United States",
+            "category": "debating",
+            "points": 9,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503804419,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Senagal",
+            "category": "debating",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503804521,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Sweden",
+            "category": "debating",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503804626,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "Russian Federation",
+            "category": "lobbying",
+            "points": 7,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503804781,
+            "chair": "Saritha Irugalbandara",
+            "chairPosition": "0",
+            "email": "saritha.irugal@gmail.com",
+            "country": "United States",
+            "category": "debating",
+            "points": 9,
+            "type": "add"
+        }
+    ],
+    "speakersList": [
+        {
+            "id": 1,
+            "speaker": "France",
+            "checked": true
+        },
+        {
+            "id": 2,
+            "speaker": "Russia",
+            "checked": true
+        },
+        {
+            "id": 3,
+            "speaker": "UK",
+            "checked": true
+        },
+        {
+            "id": 4,
+            "speaker": "USA",
+            "checked": true
+        },
+        {
+            "id": 5,
+            "speaker": "Senegal",
+            "checked": true
+        },
+        {
+            "id": 6,
+            "speaker": "Bolivia",
+            "checked": true
+        },
+        {
+            "id": 7,
+            "speaker": "Sweden",
+            "checked": true
+        },
+        {
+            "id": 8,
+            "speaker": "Ukraine",
+            "checked": true
+        },
+        {
+            "id": 9,
+            "speaker": "Ethiopia",
+            "checked": true
+        },
+        {
+            "id": 10,
+            "speaker": "Russia",
+            "checked": true
+        },
+        {
+            "id": 11,
+            "speaker": "France",
+            "checked": true
+        },
+        {
+            "id": 12,
+            "speaker": "China",
+            "checked": true
+        },
+        {
+            "id": 13,
+            "speaker": "Italy",
+            "checked": true
+        },
+        {
+            "id": 14,
+            "speaker": "Egypt",
+            "checked": true
+        }
+    ],
+    "countries": [
+        {
+            "name": "Bolivia",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 142,
+                    "lobbying": 77,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "rollcall": [
+                {
+                    "timestamp": 1503768507,
+                    "checked": true
+                },
+                {
+                    "timestamp": 1503735629,
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": 1503802761,
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "China",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 129,
+                    "lobbying": 94,
+                    "protocol": 23,
+                    "fps": 79
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "rollcall": [
+                {
+                    "timestamp": 1503768507,
+                    "checked": true
+                },
+                {
+                    "timestamp": 1503735629,
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": 1503802761,
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Egypt",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 6,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "rollcall": [
+                {
+                    "timestamp": 1503768507,
+                    "checked": true
+                },
+                {
+                    "timestamp": 1503735629,
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": 1503802761,
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Ethiopia",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 6,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "rollcall": [
+                {
+                    "timestamp": 1503768507,
+                    "checked": true
+                },
+                {
+                    "timestamp": 1503735629,
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": 1503802761,
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "France",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 41,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 68
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "rollcall": [
+                {
+                    "timestamp": 1503768507,
+                    "checked": true
+                },
+                {
+                    "timestamp": 1503735629,
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": 1503802761,
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Italy",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 7,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "rollcall": [
+                {
+                    "timestamp": 1503768507,
+                    "checked": true
+                },
+                {
+                    "timestamp": 1503735629,
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": 1503802761,
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Japan",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "rollcall": [
+                {
+                    "timestamp": 1503768507,
+                    "checked": true
+                },
+                {
+                    "timestamp": 1503735629,
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": 1503802761,
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Kazakhstan",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "rollcall": [
+                {
+                    "timestamp": 1503768507,
+                    "checked": false
+                },
+                {
+                    "timestamp": 1503735629,
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": 1503802761,
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Russian Federation",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 71,
+                    "lobbying": 7,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "rollcall": [
+                {
+                    "timestamp": 1503768507,
+                    "checked": true
+                },
+                {
+                    "timestamp": 1503735629,
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": 1503802761,
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Senagal",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 31,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "rollcall": [
+                {
+                    "timestamp": 1503768507,
+                    "checked": true
+                },
+                {
+                    "timestamp": 1503735629,
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": 1503802761,
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Sweden",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 94,
+                    "lobbying": 85,
+                    "protocol": 31,
+                    "fps": 77
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "rollcall": [
+                {
+                    "timestamp": 1503768507,
+                    "checked": true
+                },
+                {
+                    "timestamp": 1503735629,
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": 1503802761,
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Ukraine",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 6,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "rollcall": [
+                {
+                    "timestamp": 1503768507,
+                    "checked": true
+                },
+                {
+                    "timestamp": 1503735629,
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": 1503802761,
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "United Kingdom",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 70,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "rollcall": [
+                {
+                    "timestamp": 1503768507,
+                    "checked": true
+                },
+                {
+                    "timestamp": 1503735629,
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": 1503802761,
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "United States",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 150,
+                    "lobbying": 83,
+                    "protocol": 24,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "rollcall": [
+                {
+                    "timestamp": 1503768507,
+                    "checked": true
+                },
+                {
+                    "timestamp": 1503735629,
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": 1503802761,
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Uruguay",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "rollcall": [
+                {
+                    "timestamp": 1503768507,
+                    "checked": false
+                },
+                {
+                    "timestamp": 1503735629,
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": 1503802761,
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        }
+    ]
+}
