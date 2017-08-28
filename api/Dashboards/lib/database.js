@@ -18,3 +18,15 @@ module.exports.initDB = (callback) => {
     return callback(db);
   });
 };
+
+
+module.exports.initNYMUNdb = (callback) => {
+  const options = {
+    reconnectTries: 60,
+    reconnectInterval: 100,
+  };
+  MongoClient.connect('mongodb://admin:password@ds153682.mlab.com:53682/nymun', options, (err, db) => {
+    if (err) return callback(err);
+    return callback(db);
+  });
+}

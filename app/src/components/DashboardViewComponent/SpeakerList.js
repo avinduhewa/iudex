@@ -66,7 +66,7 @@ class SpeakerList extends Component {
   }
 
   callGetAPI() {
-    axios.get(`https://3wejisthn9.execute-api.ap-southeast-1.amazonaws.com/dev/getSpeakersList?committee=${'598ad84f734d1d2227f453fb'}`)
+    axios.get(`https://3wejisthn9.execute-api.ap-southeast-1.amazonaws.com/dev/getSpeakersList?committee=${this.state.committee}`)
       .then((resp) => {
         this.setState({
           speakerList: resp.data.data

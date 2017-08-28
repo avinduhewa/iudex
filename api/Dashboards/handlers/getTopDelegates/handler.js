@@ -15,9 +15,9 @@ module.exports.getTopDelegates = (event, context, callback) => {
 
     COMMITTEE.findOne({ _id: ObjectId(data.committee) })
       .then(comData => {
-        console.log(comData);
+        console.log('1',comData);
         const countryList = helper.finalizeCommitteePoints(comData);
-        console.log(countryList);
+        console.log('2',countryList);
         const delegates = countryList.sort(function (a, b) {
           return b.totalPoints - a.totalPoints;
         })

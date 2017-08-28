@@ -3,8 +3,10 @@
 module.exports.finalizeCommitteePoints = (comData) => {
   const countries = [];
   for (let country of comData.countries) {
+    console.log(country);
     let totalPoints = 0;
     for (let points of country.points) {
+      console.log(points);
       const debating = (points.debating / 500) * 200;
       const lobbying = (points.lobbying / 500) * 150;
       const protocol = (points.protocol / 500) * 50;
@@ -12,7 +14,7 @@ module.exports.finalizeCommitteePoints = (comData) => {
 
       totalPoints += parseInt(debating + lobbying + protocol + fps);
     }
-    console.log(totalPoints);
+    console.log('3',totalPoints);
     totalPoints = parseInt(totalPoints/country.points.length);
     let temp_country = country;
     temp_country.totalPoints = totalPoints;
