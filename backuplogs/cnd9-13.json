@@ -1,0 +1,5058 @@
+{
+    "_id": {
+        "$oid": "599c37f4734d1d647d0381f9"
+    },
+    "name": "Commission on Nacotic Drugs (CND)",
+    "desc": "",
+    "admins": [
+        "chiranthisenanayaka@gmail.com",
+        "venuri9612@gmail.com"
+    ],
+    "chairs": [
+        "Chiranthi",
+        "Venuri"
+    ],
+    "logs": [
+        {
+            "timestamp": 1503733558,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Angola",
+            "category": "debating",
+            "points": 10,
+            "type": "undo"
+        },
+        {
+            "timestamp": 1503733517,
+            "chair": "Chiranthi Senanayake",
+            "chairPosition": "0",
+            "email": "chiranthisenanayaka@gmail.com",
+            "country": "Angola",
+            "category": "debating",
+            "points": 10,
+            "type": "undo"
+        },
+        {
+            "timestamp": 1503730523,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Angola",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503730532,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Angola",
+            "category": "debating",
+            "points": 10,
+            "type": "undo"
+        },
+        {
+            "timestamp": 1503733502,
+            "chair": "Chiranthi Senanayake",
+            "chairPosition": "0",
+            "email": "chiranthisenanayaka@gmail.com",
+            "country": "Angola",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503733515,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Latvia",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503733520,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Angola",
+            "category": "debating",
+            "points": 10,
+            "type": "undo"
+        },
+        {
+            "timestamp": 1503733582,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Angola",
+            "category": "debating",
+            "points": 10,
+            "type": "undo"
+        },
+        {
+            "timestamp": 1503802219,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Bulgaria",
+            "category": "fps",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503802474,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Canada",
+            "category": "fps",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503802727,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Canada",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503802731,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Canada",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503802736,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Canada",
+            "category": "debating",
+            "points": 5,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503802802,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Bulgaria",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503802821,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Bulgaria",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503802826,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Bulgaria",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503802843,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Bulgaria",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503802855,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Bulgaria",
+            "category": "debating",
+            "points": 2,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503802947,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Chile",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503802950,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Chile",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503802958,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Chile",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503802968,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Chile",
+            "category": "debating",
+            "points": 1,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503802974,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Chile",
+            "category": "debating",
+            "points": 1,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803083,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "China",
+            "category": "fps",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803116,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "China",
+            "category": "debating",
+            "points": 0,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803120,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "China",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803130,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "China",
+            "category": "debating",
+            "points": 6,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803163,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Cuba",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803172,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Cuba",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803181,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Cuba",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803201,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Cuba",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803208,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Cuba",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803233,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Cuba",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803284,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Finland",
+            "category": "debating",
+            "points": 8,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803350,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Japan",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803366,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Japan",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803375,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Japan",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803386,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Japan",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803396,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Japan",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803401,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Japan",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803458,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Japan",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803461,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Japan",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803471,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Japan",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803570,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Russian Federation",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803578,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Russian Federation",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803588,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Russian Federation",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803601,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Russian Federation",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803613,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Russian Federation",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803660,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Russian Federation",
+            "category": "debating",
+            "points": 4,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803734,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Sri Lanka",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803743,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Sri Lanka",
+            "category": "debating",
+            "points": 2,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803787,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Turkey",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803796,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Turkey",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803808,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Turkey",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        },
+        {
+            "timestamp": 1503803821,
+            "chair": "venuri udawatta",
+            "chairPosition": "1",
+            "email": "venuri9612@gmail.com",
+            "country": "Turkey",
+            "category": "debating",
+            "points": 10,
+            "type": "add"
+        }
+    ],
+    "speakersList": [
+        {
+            "id": 1,
+            "speaker": "Austria",
+            "checked": false
+        },
+        {
+            "id": 2,
+            "speaker": "Brazil",
+            "checked": false
+        },
+        {
+            "id": 3,
+            "speaker": "China Human Rights Watch",
+            "checked": false
+        }
+    ],
+    "countries": [
+        {
+            "name": "Angola",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": -30,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Austria",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Bolivia",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Brazil",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Bulgaria",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 42,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 10
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Cameroon",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Canada",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 25,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 10
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Central African Republic",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Chile",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 32,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "China",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 16,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 10
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Costa Rica",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Côte d'Ivoire",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Cuba",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 60,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Dominican Republic",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Finland",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 8,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Germany",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Hungary",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "India",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Islamic Republic of Iran",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Japan",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 90,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Kenya",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Latvia",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 10,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Liberia",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Mauritania",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Mauritius",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Mexico",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Nigeria",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Oman",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Pakistan",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Peru",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Poland",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Portugal",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Russian Federation",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 54,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Sri Lanka",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 12,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Sweden",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Switzerland",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Thailand",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Turkey",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 40,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Turkmenistan",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Uganda",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "United Kingdom",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "United States of America",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "name": "Zambia",
+            "attendance": {
+                "day1": false,
+                "day2": false
+            },
+            "points": [
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                },
+                {
+                    "debating": 0,
+                    "lobbying": 0,
+                    "protocol": 0,
+                    "fps": 0
+                }
+            ],
+            "votes": [],
+            "rollcall": [
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": true
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                },
+                {
+                    "timestamp": "",
+                    "checked": false
+                }
+            ]
+        }
+    ]
+}
