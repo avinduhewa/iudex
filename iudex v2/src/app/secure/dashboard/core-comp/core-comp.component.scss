@@ -1,6 +1,6 @@
 .form--container {
     display: flex;
-    flex-direction: 'row';
+    justify-content: center;
 
     .form-group {
         margin: 10px;
@@ -116,8 +116,13 @@ span {
     }
 }
 
-.filter-section {
-    float: right;
+.timer {
+    width: 100%;
+    .filter-section {
+        justify-content: center;
+        display: flex;
+    }
+     
 }
 
 .pagination-control {
@@ -158,3 +163,8 @@ tr {
         overflow: scroll;
     }
 }
+
+.drop-select {
+    width: 200px !important;
+}
+
