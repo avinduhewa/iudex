@@ -1,0 +1,160 @@
+.form--container {
+    display: flex;
+    flex-direction: 'row';
+
+    .form-group {
+        margin: 10px;
+    }
+}
+
+.modal-content {
+    background-color:aliceblue !important;
+    border-radius: 5px;
+    .modal-body {
+        text-align: center;
+    
+        h1 {
+            font-weight: 600;
+        }
+    
+        .avatar-container {
+            text-align: left;
+            margin-top: 20px;
+            margin-left: 50px;
+
+            .avatar {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                color: white;
+                text-align: center;
+                font-weight: 900;
+                background-color: red;
+
+                span {
+                    font-weight: 900;
+                    color: white;
+                    font-size: 20px;
+                    padding-top: 100px;
+                }
+            }
+
+            .user-info { 
+                .user-name {
+                    font-weight: 600;
+                    font-size: 15px;
+                }
+                .uploaded-date {
+
+                }
+            }
+        }
+
+        img {
+            width: 100%;
+        }
+    
+        .context { 
+            text-align: left;
+            font-size: 15px;
+            margin: 20px;
+    
+        }
+    }    
+}
+
+p {
+    cursor: pointer;
+}
+
+span {
+    cursor: pointer;
+}
+.downloaded-status {
+    font-size: 15px;
+    color: rgb(177, 177, 177);
+
+    &:hover {
+        color: rgb(177, 177, 177);
+    }
+
+    &.active {
+        color: green;
+    }
+    i {
+
+    }
+
+    .number-of-down {
+        margin-left: 10px;
+        color: black;
+    }
+}
+
+.square {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: aliceblue;
+    padding: 5px;
+    margin-left: 10px;
+
+    i {
+        color: antiquewhite
+    }
+
+    &.btnActive {
+        background-color: #1c345b;
+        color: white;
+        transition: .4s;
+    }
+
+    &:hover {
+        background-color: #1c345b;
+        color: white;
+        transition: .4s;
+    }
+}
+
+.filter-section {
+    float: right;
+}
+
+.pagination-control {
+    float: right;
+
+    .my-pagination /deep/ .ngx-pagination .current {
+        background:white;
+        border-radius: 50%;
+        color: #1c345b
+      }
+}
+
+tr {
+    &:hover {
+        background-color: aliceblue;
+    }
+}
+
+.delete { 
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 50px;
+    color: antiquewhite;
+
+    &.active-delete {
+        color: #1c345b
+    }
+}
+
+.table-title { 
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.app-portlet-tables {
+    &.tables {
+        height: 400px;
+        overflow: scroll;
+    }
+}

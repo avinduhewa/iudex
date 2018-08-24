@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+/*===================================
+=            Profile bar            =
+===================================*/
+
+.app-profile-toggler{
+	float: right;
+	height: 3em;
+    line-height: 43px;
+	// font-size: em(15px);
+
+	label{
+		float: left;
+		font-weight: normal;
+		margin-right: 15px;
+		text-transform: none;
+		font-size: $font-size-xs;
+		color: white;
+		@media screen and (max-width: $screen-4k) {
+			font-size: $font-size-xl !important;
+		}
+		@media screen and (max-width: $laptop-l) {
+			font-size: $font-size-xs !important ;
+		}
+
+		a {
+			
+		}
+		@media screen and (max-width: $small-mobile-horizontal) {
+			display: none;
+		}
+	}
+}
+
+/*=====  End of Profile bar  ======*/
+
+
+/*========================================
+=            Profile dropdown            =
+========================================*/
+
+.app-profile-toggler-dropdown{
+	float: left;
+	height: $header-height;
+	position: relative;
+
+	button{
+		float: left;
+		@include prefix(appearance, none, moz webkit ms o);
+		@include box-shadow(none);
+		background: transparent;
+		border: none;
+		padding: 0;
+		height: inherit;
+		outline: none;
+	}
+
+	// Propic
+	.propic{
+		@include size(40px);
+		@include border-radius(50%);
+		overflow: hidden;
+		float: left;
+		img{
+			float: left;
+			@include size(100%);
+		}
+
+		@media screen and (max-width: $big-mobile) {
+			@include size(30px);
+		}
+	}
+
+	.mdi{
+		float: left;
+		margin-left: 10px;
+		height: inherit;
+		line-height: inherit;
+	}
+}
+
+/*=====  End of Profile dropdown  ======*/

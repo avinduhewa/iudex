@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+/*==================================
+=            Charts Page            =
+==================================*/
+
+#timelinePie,
+#pieChart,
+#dCol,
+#barLine,
+#dailyIntraChart,
+#BasicAmChart {
+    width: 100%;
+    height: 300px;
+}
+
+#lineChart {
+    width: 100%;
+    height: 400px;
+}
+
+// h2 on Title Page
+.chart-title {
+    margin: 4em 0 0em;
+}
+
+// Area -Line Chart
+.line-area {
+    margin: 3em 0 1em 0;
+}
+
+
+/*=====  End of Charts Page  ======*/
+
+
+/*=========================================
+=            Daily sales chart            =
+=========================================*/
+
+#individual_sales_chart {
+	.ct-label {
+		color: $white;
+		fill: $white;
+	}
+}
+
+$series_1_color : #0078FF;
+$series_2_color : #0063D1;
+$series_3_color : #004DA3;
+
+.ct-series-a {
+	.ct-slice-pie,
+	.ct-line,
+	.ct-point{
+		fill: $series_1_color;
+		stroke: $series_1_color;
+	}
+}
+
+.ct-series-b {
+	.ct-slice-pie,
+	.ct-line,
+	.ct-point{
+		fill: $series_2_color;
+		stroke: $series_2_color;
+	}
+}
+
+.ct-series-c {
+	.ct-slice-pie,
+	.ct-line,
+	.ct-point{
+		fill: $series_3_color;
+		stroke: $series_3_color;
+	}
+}
+
+/*=====  End of Daily sales chart  ======*/

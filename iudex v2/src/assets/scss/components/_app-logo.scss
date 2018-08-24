@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/*================================
+=            App logo            =
+================================*/
+
+.app-logo{
+	@include size(em(106px), em($header-height));
+	margin-top: 5px;
+	font-size: 20px;
+	font-weight: 900;
+	float: left;
+	color: $info-blue !important;
+	background: {
+		// image: url(../images/logo.png);
+		repeat: no-repeat;
+		position: left center;
+		size: contain;
+	}
+
+	a {
+		i {
+			font-size: 100px;
+		}
+	}
+	@media screen and (max-width: $big-mobile) {
+		@include size(em(90px), em($header-height));
+	}
+}
+
+/*=====  End of App logo  ======*/

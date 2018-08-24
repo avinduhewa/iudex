@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.app-header{
+	@include position(fixed, 0, 0, initial, initial);
+	@include prefix(transition, transform 0.1s ease-in-out, 'webkit' 'moz' 'ms' 'o');
+	height: 4em;
+	background: white;
+	z-index: 100;
+	width: 100%;
+	padding: 0 0 0 $sidebar-width;
+	color: white;
+
+	&.sidebar-is-active{
+		transform: translate3d($sidebar-active-width - $sidebar-width, 0, 0);
+	}
+
+	&.has-box-shadow{
+		@include prefix(box-shadow, 0 -10px 15px 10px rgba(140, 159, 177, 0.34), moz webkit ms o);
+	}
+
+	@media screen and (max-width: $big-mobile) {
+		padding-left: $sidebar-mobile-width;
+
+		&.sidebar-is-active{
+			transform: translate3d(90%, 0, 0);
+		}
+	}
+
+	/* Dropdown fix */
+	.dropdown-menu {
+		margin: 0px 0 0;
+		z-index: 90;
+		border-top: 0;
+		@include border-radius-separate(0, 0, 3px, 4px);
+	}
+}
+
+/*=====  End of Header  ======*/

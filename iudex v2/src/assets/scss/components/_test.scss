@@ -1,0 +1,130 @@
+body{
+    background-color: $body-bg !important;
+    font-family: $oxygen;
+    .card-container {
+        margin: 50px;
+        background-color: white;
+        border-radius: 5px;
+        -webkit-box-shadow: 2px 0px 24px 0px rgba(1, 123, 238, 0.219);
+		-moz-box-shadow: 2px 0px 24px 0px rgba(1, 123, 238, 0.219);
+        box-shadow: 2px 0px 24px 0px rgba(1, 123, 238, 0.219);
+
+        @media screen and (max-width: $small-mobile) {
+            margin: 130px 50px;
+        }
+
+        .left-container {
+            .login-form-container {
+                @media screen and (max-width: $big-mobile) {
+                    margin: 100px 30px;
+                    text-align: center;
+                }
+                @media screen and (max-width: $small-mobile) {
+                    margin: 100px 30px;
+                    text-align: center;
+                }
+                margin: 100px 70px;
+                .login-title {
+                    font-weight: 900;
+                    @media screen and (max-width: $screen-4k) {
+                        font-size: $font-size-xxl !important;
+                      }
+                      @media screen and (max-width: $laptop-l) {
+                        font-size: $font-size-xs !important ;
+                      }
+                }
+                .login-form {
+                    margin-top: 10px;
+
+                    .formTitle {
+                        font-size: 10px;
+                        font-weight: 300;
+
+                        @media screen and (max-width: $screen-4k) {
+                            font-size: $font-size-xxl !important;
+                          }
+                          @media screen and (max-width: $laptop-l) {
+                            font-size: $font-size-xs !important ;
+                          }
+                    }
+                }
+
+                .submit-btn {
+                    .btn-login {
+                        transition: 0.3s;
+                        border-radius: 50%;
+                        background-color: #00B3EE;
+                        border: none;
+                        width: 200px;
+                        font-size: 15px;
+                        @media screen and (max-width: $big-mobile) {
+                            width: 100px;
+                        }
+                        @media screen and (max-width: $small-mobile) {
+                            width: 100px;
+                        }
+
+                    }
+                    :hover {
+                        transition: 0.3s;
+                        background-color: white;
+                        color: #00B3EE;
+                        border-color: #00B3EE;
+                    }
+                }
+
+                .forgot-password {
+                    margin-top: 30px;
+                    .forgot-title {
+                        font-size: 10px;
+                        @media screen and (max-width: $screen-4k) {
+                            font-size: $font-size-xxl !important;
+                          }
+                          @media screen and (max-width: $laptop-l) {
+                            font-size: $font-size-xs !important ;
+                          }
+                    }
+                    .register-link {
+                        color: #00B3EE;
+                    }
+                }
+            }
+        }
+
+        .card-content {
+            
+            .right-container {
+                @media screen and (max-width: $tablet) {
+                    display: none;
+                }
+                @media screen and (max-width: $small-mobile) {
+                    display: none;
+                }
+                // background: linear-gradient(transparent,transparent, #020202), url("http://thispix.com/wp-content/uploads/2015/06/portrait-profile-013.jpg") no-repeat center;
+                // background-image: url('../../media/background.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                // background-color: #233239;
+                border-radius: 0px 5px 5px 0px;
+                height: 576px;
+
+                &.signin {
+                    height: 500px;
+                }
+            
+                .image-holder {
+                    .wording-section {
+                        color:white;
+                        position: absolute;
+                        bottom: 0px;
+                        font-weight: 900;
+                        size: 200px;
+                    }
+                }
+            }
+
+        }
+    }
+    
+}
+

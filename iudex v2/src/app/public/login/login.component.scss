@@ -1,0 +1,52 @@
+
+.login-container {
+    background-color: #1c345b;
+    height: 100vh;
+    .app-login-form {
+        margin: 150px 250px 0px 250px;
+        text-align: center;
+        color: white;
+
+        @media screen and (max-width: 2560px) {
+            margin: 150px 250px 0px 250px;
+        }
+
+        @media screen and (max-width: 1024px) {
+            margin: 20px;
+        }
+
+        .image-container {
+
+            img {
+                width: 150px;
+            }
+        
+        }
+        
+
+        .heading {
+            h3 { 
+                font-weight: 600;
+                color: #1c345b;
+            }
+        }
+        
+        .form-container { 
+            margin-top: 30px;
+
+            label {
+                color: white;
+                font-weight: 600;
+            }
+            .forgot-password {
+                margin-top: 10px;
+            }
+
+            .btn {
+                background-color: #d29847;
+                border-radius: 50px;
+                margin-top: 20px;
+            }
+        }
+    }
+}

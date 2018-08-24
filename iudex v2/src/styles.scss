@@ -1,0 +1,34 @@
+
+// Core base colors, fonts, and variables
+@import "assets/scss/base/color-palatte";
+@import "assets/scss/base/fonts";
+@import "assets/scss/base/app-variables";
+@import "assets/scss/base/variables";
+
+// Core Mixins and Extends
+@import "assets/scss/utils/mixins";
+@import "assets/scss/utils/twbs-mixins";
+@import "assets/scss/utils/extends";
+
+// Core CSS
+@import "assets/scss/base/scaffolding";
+// @import "base/grid";
+@import "assets/scss/ui/tables";
+@import "assets/scss/ui/forms";
+@import "assets/scss/ui/buttons";
+
+// Components
+@import "assets/scss/ui/dropdowns";
+@import "assets/scss/ui/button-groups";
+@import "assets/scss/ui/input-groups";
+@import "assets/scss/ui/navs";
+@import "assets/scss/ui/navbar";
+
+// Layout
+@import "assets/scss/layout/wrapper";
+@import "assets/scss/layout/app-header";
+@import "assets/scss/layout/app-sidebar";
+@import "assets/scss/layout/app-container";
+
+// Components
+@import "assets/scss/components/styling";

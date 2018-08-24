@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+/*============================================
+=            App label chip            =
+============================================*/
+
+.app--label-chip {
+	display: table;
+	padding: 15px 0;
+
+	/* Icon */
+	.label-chip-icon {
+		display: table-cell;
+		vertical-align: bottom;
+		line-height: 1;
+		color: $text-priority-color;
+		font-size: $font-size-xxxl;
+	}
+
+	/* Big text */
+	.label-chip-big-txt {
+		display: table-cell;
+		vertical-align: bottom;
+		padding: 0 15px 0 10px;
+		font-size: $font-size-xxxl;
+		color: $text-priority-color;
+		line-height: 1;
+	}
+
+	/* Small text */
+	.label-chip-small-txt {
+		display: table-cell;
+		vertical-align: bottom;
+		line-height: 1;
+		padding-bottom: 4px;
+	}
+
+	/* Color classes */
+
+	&.label-chip-info {
+		.label-chip-icon {
+			color: $app-default;
+		}
+		.label-chip-big-txt {
+			color: $app-default;
+		}
+	}
+	&.label-chip-primary {
+		.label-chip-icon {
+			color: $app-primary;
+		}
+		.label-chip-big-txt {
+			color: $app-primary;
+		}
+	}
+	&.label-chip-secondary {
+		.label-chip-icon {
+			color: $app-secondary;
+		}
+		.label-chip-big-txt {
+			color: $app-secondary;
+		}
+	}
+	&.label-chip-danger {
+		.label-chip-icon {
+			color: $app-danger;
+		}
+		.label-chip-big-txt {
+			color: $app-danger;
+		}
+	}
+	&.label-chip-success {
+		.label-chip-icon {
+			color: $app-success;
+		}
+		.label-chip-big-txt {
+			color: $app-success;
+		}
+	}
+	&.label-chip-warning {
+		.label-chip-icon {
+			color: $app-warning;
+		}
+		.label-chip-big-txt {
+			color: $app-warning;
+		}
+	}
+	
+	
+}
+
+/*=====  End of App label chip  ======*/

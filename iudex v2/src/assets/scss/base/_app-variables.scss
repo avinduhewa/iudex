@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+
+$font-size-xs : 11px;
+$font-size-sm : 13px;
+$font-size-md : 14px;
+$font-size-lg : 16px;
+$font-size-xl : 18px;
+$font-size-xxl : 15px;
+$font-size-xxxl : 38px;
+
+$font-weight-xs : 100;
+$font-weight-sm : 300;
+$font-weight-md : 400;
+$font-weight-lg : 500;
+$font-weight-xl : 700;
+
+
+$oxygen : 'Oxygen', sans-serif;
+$fontawesome : 'FontAwesome', sans-serif;
+$opensans : 'Open Sans', sans-serif;
+$montserrat : 'Montserrat', sans-serif;
+$mdi: "Material Design Icons";
+$poppins: "Poppins", sans-serif;
+$roboto : 'Roboto', sans-serif;
+
+
+$text-primary-color : #5d6c8c;
+$text-priority-color : #17233c;
+$text-secondary-color : #8a93a6;
+$text-title-color : #304e66;
+$text-minority-color : #7b97ad;
+$text-light-color : $text-secondary-color;
+
+
+$app-priority:        #17233c !default;
+$app-primary:         #0078FF !default;
+$app-secondary:       darken(#428bca, 6.5%) !default; // #337ab7
+$app-success:         $green !default;
+$app-info:            #5bc0de !default;
+$app-default:         #6e7d9c !default;
+$app-warning:         $orange !default;
+$app-danger:          $red !default;
+$app-dark: 		  	  #1b2631;
+$app-dark-light:  	  lighten(#1b2631, 4%);
+$dark-grey : #f2f3f7 !default;
+
+$app-hover: 		  $lighter-blue;
+
+
+$body-bg: $dark-grey;
+$app-font-family: $oxygen;
+
+$app-default-border: #dee8f2;
+$app-input-border: #dde4ea;
+$separator-color: #edf4f9;
+
+$theme-border-color : #ebedf2;
+
+
+$screen-4k : 2560px;
+$laptop-l : 1440px;
+$small-desktop : 1024px;
+$smaller-desktop : 992px;
+$tablet : 769px;
+$big-mobile : 680px;
+$big-mobile-horizontal : 680px;
+$small-mobile : 375px;
+$small-mobile-horizontal : 480px;
+
+$am-label-color : #627584;
+
+$am-text-color : #426a89;
+
+
+$header-bg-color : $white;
+$header-height : 30px;
+$header-profile-name-color : #627584;
+
+
+$sidebar-bg-color: white;
+$sidebar-width: 50px;
+$sidebar-active-width: 200px;
+$sidebar-height: 100%;
+$sidebar-mobile-width: 50px;
+$sidebar-mobile-active-width: 90%;
+
+$footer-color: #8faabf;
+$footer-bg-color : $light-blue;
+$footer-border-color : #d7e1e8;
+$footer-height : 40px;
+
+
+$am-container-header-height: 45px;
+
+$am-page-title-color : #304e66;
+$am-page-description-color : #8faabf;
+
+$am-page-actions-color: $am-page-description-color;
+$am-page-actions-height: 35px;
+
+$am-board-menu-width : 400px;
+$am-board-menu-bg : $white;
+// $am-boardmenu-top-border-color : $am-brand-primary;
+$am-boardmenu-toggle-width : $sidebar-width;
+
+
+
+$window-box-bg : $white;
+$window-padding : 30px;
+$window-box-header-height : 35px;
+
+
+$am-alert-padding:               10px 15px !default;
+$am-alert-border-radius:         3px !default;
+$am-alert-link-font-weight:      bold !default;
+
+$am-alert-success-bg:            $green !default;
+$am-alert-success-text:          $white !default;
+$am-alert-success-border:        $green !default;
+
+$am-login-window-width: 400px !default;
+$am-forgot-pw-link-color: #80a5c1 !default;
+$am-forgot-pw-link-hover-color: red !default;
+
+$am-breadcrumb-bg : $white;
+
+
+
+
+
+
+

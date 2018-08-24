@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+/*================================
+=            App card            =
+================================*/
+
+.app--card {
+	@extend %left-wide;
+	// background: $white;
+	// padding: 15px 30px;
+	// @extend %window-border-style;
+	
+	/* Card Header */
+	.app--card-header {
+		display: table;
+		width: 100%;
+
+		// Card header title
+		.app--card-header-title {
+			display: inline-block;
+			width: 100%;
+			padding: 15px 0 30px;
+			// margin: 0 0 10px;
+			text-align: center;
+			border-bottom: 1px solid $separator-color;
+
+			h2 {
+				@extend %left-wide;
+				font-size: $font-size-lg;
+				margin: 0 0 6px;
+			}
+
+			p {
+				@extend %left-wide;
+				margin: 0;
+				font-size: $font-size-sm;
+			}
+		}
+
+		// Card header data
+		.app--card-header-data {
+			display: table-cell;
+			vertical-align: middle;
+			font-size: $font-size-sm;
+			font-weight: $font-weight-lg;
+			color: $text-secondary-color;
+			
+			span {}
+
+			// Date
+			.date {}
+		}
+
+		// Card header action
+		.app--card-header-action {
+			display: table-cell;
+			text-align: right;
+			vertical-align: middle;
+
+			.action-btn {
+				font-size: $font-size-xxl;
+				color: $text-secondary-color;
+
+				&:hover, &:focus {
+					color: $text-priority-color;
+				}
+			}
+		}
+		
+	}
+	
+	/* Card Body */
+	.app--card-body {
+		display: inline-block;
+		width: 100%;
+		padding: 15px 0;
+	}
+	
+	/* Card Footer */
+	.app--card-footer {
+		display: inline-block;
+		width: 100%;
+	}
+	
+}
+
+/*=====  End of App card  ======*/
+

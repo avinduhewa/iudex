@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/*=================================
+=            Container            =
+=================================*/
+
+.app-container{
+	@include position(fixed, em($header-height), 0, 0, 0);
+	@include prefix(transition, transform 0.1s ease-in-out, 'webkit' 'moz' 'ms' 'o');
+	z-index: 0;
+	overflow: auto;
+	// padding: 0 0 em(40px) $sidebar-width;
+
+	&.Customer-container {
+		padding: 30px;
+		position: relative;
+	}
+
+	.custom-container {
+		padding: 0px !important;
+	}
+
+	&.sidebar-is-active{
+		transform: translate3d($sidebar-active-width - $sidebar-width, 0, 0);
+	}
+
+	@media screen and (max-width: $big-mobile) {
+		padding: 0 0 40px $sidebar-mobile-width;
+
+		&.Customer-container {
+			padding: 30px;
+			position: relative;
+		}
+
+		&.sidebar-is-active{
+			transform: translate3d(90%, 0, 0);
+		}
+	}
+}
+
+/*=====  End of Container  ======*/
+
+
+/*===============================
+=            Flexbox            =
+===============================*/
+
+.flex-row {
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+    flex-wrap: wrap;
+
+    [class*='col'] {
+		flex-grow: 0;
+		// flex-shrink: 0;
+	}
+}
+
+/*=====  End of Flexbox  ======*/

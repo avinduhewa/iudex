@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/*======================================
+=            App page title            =
+======================================*/
+
+.app--page-title {
+	display: table-cell;
+	vertical-align: middle;
+	font-family: $oxygen;
+
+	/* Sub title */
+	.sub-title {
+		margin: 0 0 5px;
+		font-size: $font-size-sm;
+	}
+	
+	/* Title */
+	h1 {
+		font-size: $font-size-lg;
+		color: $text-title-color;
+		margin: 0 0 5px;
+	}
+
+	/* Small title */
+	.small-title {
+		margin: 0 0 5px;
+		font-size: $font-size-sm;
+		font-weight: $font-weight-md;
+	}
+	
+	p {
+		margin: 0;
+		color: $text-secondary-color;
+	}
+
+	&.customer-complaints {
+		text-align: center;
+		font-weight: 900;
+
+		h1 {
+			font-size: 30px;
+			font-weight: 900;
+			color: $info-blue;
+		}
+	}
+}
+
+/*=====  End of App page title  ======*/

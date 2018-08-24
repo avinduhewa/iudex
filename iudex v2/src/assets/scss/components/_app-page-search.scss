@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/*===================================
+=            Page Search            =
+===================================*/
+
+.app-page-search{
+	float: left;
+	position: relative;
+
+	.form-control{
+		float: left;
+		padding-left: 35px;
+	}
+
+	.icon-search{
+		position: absolute;
+		height: $am-page-actions-height;
+		line-height: $am-page-actions-height;
+		left: 12px;
+		color: $input-color-placeholder;
+		z-index: 900;
+	}
+}
+
+// Search Toggle Button
+.search-toggle{
+	float: left;
+	@include prefix(appearance, none, moz webkit o);
+	background: transparent;
+	border: none;
+	outline: none;
+	height: $am-page-actions-height;
+	line-height: $am-page-actions-height;
+	color: $am-page-actions-color;
+
+	border-right: 1px solid $app-default-border;
+	padding: 0 15px;
+}
+
+/*=====  End of Page Search  ======*/
+

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/*===============================
+=            Wrapper            =
+===============================*/
+
+.wrapper{
+	@extend %left-wide;
+	padding: 0 em(40px) 0 em(40px);
+
+	@media screen and (max-width: 768px) {
+		padding: 0 em(20px) 0 em(20px);
+	}
+}
+
+.section{
+	@extend %left-wide;
+}
+
+.internal-wrapper {
+	margin: auto;
+	max-width: 1280px;
+}
+
+
+/*=====  End of Wrapper  ======*/
